@@ -37,8 +37,8 @@ The quiz features multiple-choice questions, user-friendly formatting, score tra
   - Version Control: Git & GitHub
 
 ## Users Stories 
-| **User Story**                | **Priority** | **Description** |
-| --------------                | ------------ | --------------- |
+| **User Story**  | **Priority** | **Description** |
+| --------------  | ------------ | --------------- |
 | **Basic Quiz Functionality**  | High         | As a user, I want to answer Python quiz questions so that I can test my knowledge and improve my skills. |
 | **User-Friendly Interface**   | High         | As a user, I want the quiz to display clear and formatted questions with multiple choices so that I can easily select my answer. |
 | **Score Tracking**            | Medium       | As a user, I want to see my score at the end of the quiz so that I can track my performance. |
