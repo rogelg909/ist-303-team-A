@@ -2,7 +2,7 @@
 ## 📌 Part B - Project Planning, Tasks, and Burndown Chart  
 
 ### **1. 📅 Updated Timeline for Part B**  
-Since **Part C is due on March 12, 2025**, we have structured Part B to be completed within **4 weeks**.
+Since **Part C is due on March 12, 2025**, we need to construct Part B to be completed within **4 weeks**.
 
 | **Week**   | **Task**  | **Deadline**  |
 |----------- |----------|--------------|
