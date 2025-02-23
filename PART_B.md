@@ -75,21 +75,6 @@ Since **Part C is due on March 12, 2025**, we have structured Part B to be compl
 
 ---
 
-## **💾 How to Update in GitHub**  
-
-1. **Go to your repository (`ist-303-team-A`)**.  
-2. **Click on `PART_B.md`**.  
-3. Click the **"Edit" (pencil) icon**.  
-4. **Replace existing content** with this updated version.  
-5. **Scroll down and commit the changes**:  
-   - Commit message:  
-     ```
-     Updated Part B with revised timeline, tasks, and burndown chart
-     ```
-   - Choose **"Commit directly to the main branch"**.  
-6. Click **"Commit changes"**.  
-
----
 
 ### **✅ Final Checklist Before March 12**  
 
@@ -108,7 +93,5 @@ Since **Part C is due on March 12, 2025**, we have structured Part B to be compl
 - Stay aligned with **Part C (March 12) & Part D (April 23) deadlines**.  
 
 ---
-
-**🚀 Ready for Submission & Discussion!**  
-Let me know if you need any more adjustments! 🔥  
+  
 
