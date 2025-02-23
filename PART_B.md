@@ -53,8 +53,6 @@ Since **Part C is due on March 12, 2025**, we have structured Part B to be compl
 | Week 4 (Mar 12 - Mar 15) | 25% → 0% | 30% → 10% |
 
 📌 **Burndown chart tracks estimated vs. actual progress**.
-![image](https://github.com/user-attachments/assets/3b735c19-c6d2-4d58-a305-65d77c53d379)
-
 
 ---
 
