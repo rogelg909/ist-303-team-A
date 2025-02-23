@@ -1,3 +1,4 @@
+
 # IST 303 SOFTWARE DEVELOPMENT TEAM A 
 # Project Title - CodeQuest: Python Mastery 🚀🐍
 
@@ -103,6 +104,9 @@ Understanding our stakeholders helps us ensure the quiz application meets their 
 | **Week 8** | Debug, optimize code structure, and refactor using functions for better maintainability and readability. |
 | **Week 9** | Conduct user testing, fix reported issues, and finalize UI improvements based on feedback. |
 | **Week 10** | Deploy the final version and document the project for future expansion and maintenance. |
+
+## 📂 Additional Documentation
+- 📜 [Part B - Project Planning & Breakdown](PART_B.md)
 
 ## Contact 
 # Emails
