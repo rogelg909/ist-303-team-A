@@ -93,7 +93,7 @@ To complete **Milestone 1.0**, we have divided the work into **2 iterations** ba
 
 | **Date**  | **Attendees**  | **Key Discussions**  |
 |----------|--------------|------------------|
-| **Feb 22, 2025** | All Members | Finalized Part B timeline and work distribution |
+| **Feb 23, 2025** | All Members | Finalized Part B timeline and work distribution |
 | **Mar 1, 2025** | All Members | Reviewed implementation progress, fixed UI issues |
 | **Mar 8, 2025** | All Members | Internal testing and debugging |
 | **Mar 12, 2025** | All Members | Prepared documentation for Part C Presentation |
