@@ -57,6 +57,38 @@ Since **Part C is due on March 12, 2025**, we need to construct Part B to be com
 
 ---
 
+### **4.1 🔄 Iteration Breakdown for Milestone 1.0**
+
+To complete **Milestone 1.0**, we have divided the work into **2 iterations** based on the team's velocity.
+
+#### **Iteration 1: Core Quiz Functionality & UI (Feb 22 - Mar 7)**
+**Duration:** 2 weeks  
+**Total Workload:** 40 hours  
+**Tasks Included:**  
+✅ Implement question display (5 hours)  
+✅ Capture user input for answers (5 hours)  
+✅ Validate correct/incorrect answers (5 hours)  
+✅ Format quiz UI (6 hours)  
+✅ Store quiz questions in JSON (7 hours)  
+✅ Error handling & input validation (7 hours)  
+✅ Basic score tracking (5 hours)  
+
+#### **Iteration 2: Enhancements & Testing (Mar 8 - Mar 12)**
+**Duration:** 1 week  
+**Total Workload:** 40 hours  
+**Tasks Included:**  
+✅ Improve UI with color-coded responses (5 hours)  
+✅ Implement retry logic (5 hours)  
+✅ Develop admin panel for quiz management (15 hours)  
+✅ Conduct internal testing & bug fixes (10 hours)  
+✅ Prepare for Part C presentation (5 hours)  
+
+### **Velocity Consideration**
+- **Total Estimated Effort:** 80 hours  
+- **Team Capacity:** 40 hours/week (4 members × 10 hours each)  
+- **Planned Iterations:** 2 iterations, each completing ~50% of the workload  
+- **Completion Goal:** Ensure the project is stable & testable before **March 12 (Part C deadline)**  
+
 ### **5. 📅 Team Meeting Logs (Part B)**  
 
 | **Date**  | **Attendees**  | **Key Discussions**  |
