@@ -33,7 +33,8 @@ Understanding our stakeholders helps us ensure the quiz application meets their 
 5. **Platform Managers (If Integrated on a Website)**  
    - If the project is expanded into a web application, platform owners will manage deployments, hosting, and security.
 
-## Key Features
+## **🚀 Key Features**
+### **✔ Core Quiz Features**
 - **Basic Quiz Functionality:**  
   - Users can answer Python quiz questions to test their knowledge.
   
@@ -45,7 +46,18 @@ Understanding our stakeholders helps us ensure the quiz application meets their 
   
 - **Error Handling & User Input Validation:**  
   - The application gracefully handles incorrect inputs, prompting users to retry without interrupting the quiz experience.
-  
+
+### **🎯 Additional Features**
+- ⏳ **Timer-Based Quiz Mode** - Limits response time per question   
+- 💡 **Hints for Each Question** - Provides a hint when users struggle   
+- 🔄 **Flashcard Mode** - Allows users to review questions passively 
+- 🔊 **Sound Effects** - Plays correct/wrong answer sounds 
+- 📊 **User Progress & Quiz History** - Saves and tracks past quiz results 
+- 🏆 **Leaderboard** - Displays top 5 players' highest scores 
+- ✍️ **Custom Quiz Creation** - Admins can create and modify quizzes  
+- 🎯 **Adaptive Difficulty** - Adjusts question difficulty based on user performance   
+
+ 
 ## Techinical Stack 
 - **Programming Language:**
   -Python 3.x
@@ -58,13 +70,25 @@ Understanding our stakeholders helps us ensure the quiz application meets their 
   - Code Editor: Visual Studio Code or other preferred Python IDE.
   - Version Control: Git & GitHub
 
-## Users Stories 
-| **User Story**  | **Priority** | **Description** |
-| --------------  | ------------ | --------------- |
-| **Basic Quiz Functionality**  | High         | As a user, I want to answer Python quiz questions so that I can test my knowledge and improve my skills. |
-| **User-Friendly Interface**   | High         | As a user, I want the quiz to display clear and formatted questions with multiple choices so that I can easily select my answer. |
-| **Score Tracking**            | Medium       | As a user, I want to see my score at the end of the quiz so that I can track my performance. |
-| **Error Handling & Input Validation** | High | As a user, I want the quiz to handle incorrect inputs gracefully so that I can retry without breaking the experience. |
+## 📜 User Stories & Estimated Completion Times
+
+| **User Story**  | **Priority** | **Description** | **Estimated Time** |
+| --------------  | ------------ | --------------- | ------------------ |
+| **Basic Quiz Functionality**  | High | As a user, I want to answer Python quiz questions so that I can test my knowledge and improve my skills. | **1.5 weeks** |
+| **User-Friendly Interface**  | High | As a user, I want the quiz to display clear and formatted questions with multiple choices so that I can easily select my answer. | **1 week** |
+| **Score Tracking** | Medium | As a user, I want to see my score at the end of the quiz so that I can track my performance. | **1 week** |
+| **Error Handling & Input Validation** | High | As a user, I want the quiz to handle incorrect inputs gracefully so that I can retry without breaking the experience. | **1.5 weeks** |
+| **Admin Panel for Quiz Management** | High | As an admin, I want to create, update, and delete quiz questions so that I can manage quiz content dynamically. | **2 weeks** |
+| **User Profiles & Score History** | Medium | As a user, I want my previous quiz scores to be saved so I can track my progress over time. | **2 weeks** |
+| **Randomized Questions per Attempt** | Medium | As a user, I want different quiz questions each time I play so that I can get a fresh learning experience. | **1.5 weeks** |
+| **⏳ Timer-Based Quiz Mode** | High | As a user, I want a time limit for each question so that I can challenge my speed and accuracy. | **1 week** |
+| **💡 Hints for Each Question** | Medium | As a user, I want to receive hints when I am unsure about an answer so that I can learn rather than guess. | **1 week** |
+| **🔄 Flashcard Mode** | Medium | As a user, I want to review questions in flashcard format so that I can study passively before taking the quiz. | **1 week** |
+| **🔊 Sound Effects for Correct/Wrong Answers** | Low | As a user, I want sound effects to play when I get an answer right or wrong to make the quiz more interactive. | **0.5 weeks** |
+| **📊 User Progress & Quiz History** | Medium | As a user, I want to see my past quiz scores and track my improvements over time. | **1.5 weeks** |
+| **🏆 Leaderboard (Top 5 Players)** | Medium | As a user, I want to see a leaderboard that shows the top players so that I can compete with others. | **1.5 weeks** |
+| **✍️ Custom Quiz Creation Mode** | Medium | As an admin, I want to create my own quiz sets by adding custom questions and answers. | **2 weeks** |
+| **🎯 Adaptive Difficulty System** | High | As a user, I want the quiz to adjust its difficulty based on my performance so that I am continuously challenged at my level. | **2 weeks** |
 
 ## 8 - 10 week Development Timelime
 | **Week**   | **Task**|
