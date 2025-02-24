@@ -65,6 +65,8 @@ To complete **Milestone 1.0**, we have divided the work into **2 iterations** ba
 **Duration:** 2 weeks  
 **Total Workload:** 40 hours  
 **Tasks Included:**  
+✅ Create register page (5 hours)  
+✅ Create login page (5 hours)  
 ✅ Implement question display (5 hours)  
 ✅ Capture user input for answers (5 hours)  
 ✅ Validate correct/incorrect answers (5 hours)  
@@ -93,7 +95,8 @@ To complete **Milestone 1.0**, we have divided the work into **2 iterations** ba
 
 | **Date**  | **Attendees**  | **Key Discussions**  |
 |----------|--------------|------------------|
-| **Feb 23, 2025** | All Members | Finalized Part B timeline and work distribution |
+| **Feb 23, 2025** | All Members except Paniz | Finalized Part B timeline and work distribution |
+| **Feb 24, 2025** | All Members | Discuss the Landing page, User Dashboard |
 | **Mar 1, 2025** | All Members | Reviewed implementation progress, fixed UI issues |
 | **Mar 8, 2025** | All Members | Internal testing and debugging |
 | **Mar 12, 2025** | All Members | Prepared documentation for Part C Presentation |
