@@ -36,7 +36,7 @@ Since **Part C is due on March 12, 2025**, we need to construct Part B to be com
 
 ### **3. 🎯 Milestone 1.0 Deliverables (Completion by March 12)**  
 
-✅ User Registration and Login 
+✅ User Registration and Login
 ✅ Basic Quiz Functionality (Users can take a Python quiz)  
 ✅ User Interface with formatted questions & options  
 ✅ Score Tracking (Users see final score at the end)  
