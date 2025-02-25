@@ -55,6 +55,21 @@ Since **Part C is due on March 12, 2025**, we need to construct Part B to be com
 📌 **Burndown chart tracks estimated vs. actual progress**.
 ![Picture1](https://github.com/user-attachments/assets/983d7d75-3b93-4a84-90f3-f5518a31f43f)
 
+# Project Burndown Chart - IST 303 CodeQuest
+---
+## Work Hours Remaining Over Iterations
+
+| Iteration Milestone                          | Planned Hours Remaining | Actual Hours Remaining |
+|---------------------------------------------|------------------------|-----------------------|
+| **Iteration 1 Start**                        | 80                     | 80                    |
+| **Feb 24 (Completed Register & Login Page)** | 70                     | 75                    |
+| **Feb 26 (Planned Completion of Iteration 1)** | 60                     | -                     |
+| **Iteration 2 Start (Mar 8)**                | 50                     | -                     |
+| **Mar 10 (Midpoint of Iteration 2)**         | 40                     | -                     |
+| **Mar 12 (Planned Completion of Iteration 2)** | 30                     | -                     |
+
+📌 **Note**: Update "Actual Hours Remaining" as progress is made.
+
 ![Burndownchart 1](https://github.com/user-attachments/assets/6a8c3565-b10c-426a-8f06-8f78689d21ab)
 
 ---
