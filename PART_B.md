@@ -1,7 +1,7 @@
 # IST 303 - CodeQuest: Python Mastery 🚀🐍  
 ## 📌 Part B - Project Planning, Tasks, and Burndown Chart  
 
-### **1. 📅 Updated Timeline for Part B**  
+### **0. 📅 Updated Timeline for Part B**  
 Since **Part C is due on March 12, 2025**, we need to construct Part B to be completed within **4 weeks**.
 
 | **Week**   | **Task**  | **Deadline**  |
@@ -13,7 +13,7 @@ Since **Part C is due on March 12, 2025**, we need to construct Part B to be com
 
 ---
 
-### **2. 📝 Decomposed User Stories & Task Assignments**  
+### **1. 📝 Decomposed User Stories & Task Assignments**  
 
 | **User Story**  | **Task** | **Time Estimate** | **Assigned To** |
 | --------------  | ------------ | --------------- | --------------- |
