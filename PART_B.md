@@ -19,6 +19,7 @@ Since **Part C is due on March 12, 2025**, we need to construct Part B to be com
 | --------------  | ------------ | --------------- | --------------- |
 | **Basic Quiz Functionality** | Implement question display | 1 week | _(To be assigned)_ |
 |  | User Registration and User Login | 1 week | _(Hla Win Tun)_ |
+|  | Research the Questions for Quiz | 1 week | _(Rogelio)_ |
 |  | Capture user input for answers | 1 week | _(Rogelio)_ |
 |  | Validate correct/incorrect answers | 1 week | _(To be assigned)_ |
 | **User-Friendly Interface** | Format quiz output for readability | 1 week | _(To be assigned)_ |
