@@ -171,7 +171,7 @@ Detailed meeting notes can be found in the **[Meeting Notes Folder](https://gith
 
 ---
 
-# 🛠 7. Development and Testing Environment Setup 
+### 🛠 7. Development and Testing Environment Setup 
 
 ## **7.1 📂 Project Structure & Repository**
 The project repository is well-organized and follows a clear structure.
