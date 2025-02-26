@@ -22,9 +22,9 @@ Since **Part C is due on March 12, 2025**, we need to construct Part B to be com
 |  | Research the Questions for Quiz | 1 week | _(Rogelio)_ |
 |  | Capture user input for answers | 1 week | _(Rogelio)_ |
 |  | Validate correct/incorrect answers | 1 week | _(To be assigned)_ |
-|  | Dashboard | 1 week | _(Paniz)_ |
+|  | Dashboard | 1 week | _(Paniz, Hla Win Tun)_ |
 | **User-Friendly Interface** | Format quiz output for readability | 1 week | _(To be assigned)_ |
-|  | Add color coding for correct/incorrect responses | 0.5 weeks | _(To be assigned)_ |
+|  | Add color coding for correct/incorrect responses | 0.5 weeks | _(Emmanuel)_ |
 | **Score Tracking** | Store user scores | 1 week | _(To be assigned)_ |
 |  | Display final score at quiz end | 0.5 weeks | _(To be assigned)_ |
 | **Error Handling & Input Validation** | Handle invalid inputs | 1 week | _(To be assigned)_ |
