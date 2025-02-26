@@ -136,8 +136,44 @@ To ensure accountability and clear division of work, below is the **task allocat
 Detailed meeting notes can be found in the **[Meeting Notes Folder](https://github.com/rogelg909/ist-303-team-A/tree/main/meeting_notes)**.
 
 ---
+### **7. 🛠 Development and Testing Environment Setup**  
 
-### **7. 🔜 Next Steps (Beyond Part B)**  
+Our development environment is fully set up with a structured repository and working application.  
+
+#### ✅ **Project Structure**  
+- The repository follows a clear organization with separate folders for:
+  - `src/ist303_flask_project/` (Main application files)
+  - `templates/` (HTML templates)
+  - `static/` (CSS, images)
+  - `test/` (Testing folder)
+
+#### ✅ **Flask Application**  
+- The project is built using Flask and SQLite.
+- `app.py` handles routing, authentication, and quiz logic.
+- `init_db.py` and `schema.sql` manage database initialization.
+
+#### ✅ **Database & Storage**  
+- We use `database.db` (SQLite) to store user credentials and quiz questions.
+
+#### ✅ **Testing Setup**  
+- A dedicated `test/` folder contains `test_quiz.py`.
+- Testing is being performed using Python’s `unittest` framework.
+- The test file checks quiz logic and response validation.
+
+📌 **Next Steps:**  
+- Improve `test_quiz.py` by adding test cases for user authentication and database operations.
+- Implement `pytest` for structured and automated testing.
+- Ensure at least **two tests per major feature** before the next iteration.
+
+---
+
+### **📂 Repository Link**  
+📍 **Check out our repo:** [IST-303-Team-A Repository](https://github.com/rogelg909/ist-303-team-A)  
+📍 **Testing folder:** [View `test/` folder](https://github.com/rogelg909/ist-303-team-A/tree/main/test)  
+
+---
+
+### **8. 🔜 Next Steps (Beyond Part B)**  
 
 - 🎯 **March 12** – Group Presentation #1 (**Part C Submission**)  
 - 🎯 **March 15 - April 22** – Iterations for **Milestone 2.0 & Part D Work**  
