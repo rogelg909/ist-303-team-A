@@ -100,25 +100,52 @@ To ensure accountability and clear division of work, below is the **task allocat
 
 ### **5. 📊 Burndown Chart Data**  
 
-# Project Burndown Chart - IST 303 CodeQuest
+## **📉 Project Burndown Chart - IST 303 CodeQuest**  
 
-## Work Hours Remaining Over Iterations
+### **Workdays Remaining Over Iterations**
 
-| Iteration Milestone                          | Planned Hours Remaining | Actual Hours Remaining |
-|---------------------------------------------|------------------------|-----------------------|
-| **Iteration 1 Start**                        | 80                     | 80                    |
-| **Feb 24 (Completed Register & Login Page)** | 70                     | 75                    |
-| **Feb 26 (Planned Completion of Iteration 1)** | 60                     | -                     |
-| **Iteration 2 Start (Mar 8)**                | 50                     | -                     |
-| **Mar 10 (Midpoint of Iteration 2)**         | 40                     | -                     |
-| **Mar 12 (Planned Completion of Iteration 2)** | 30                     | -                     |
+| **Iteration Milestone**                        | **Planned Days Remaining** | **Actual Days Remaining** |
+|-----------------------------------------------|--------------------------|--------------------------|
+| **Iteration 1 Start (Feb 22, 2025)**          | 20                       | 20                       |
+| **Feb 24 (Completed Register & Login Page)**  | 18                        | 18.75                     |
+| **Feb 26 (Planned Completion of Iteration 1)** | 16                        | -                        |
+| **Iteration 2 Start (Mar 8, 2025)**           | 14                        | -                        |
+| **Mar 10 (Midpoint of Iteration 2)**          | 12                        | -                        |
+| **Mar 12 (Planned Completion of Iteration 2)** | 10                        | -                        |
+| **Iteration 3 Start (Mar 15, 2025)**          | 8                         | -                        |
+| **Mar 22 (Milestone 2 Midpoint)**             | 5                         | -                        |
+| **Mar 29 (Completion of Milestone 2)**        | 3                         | -                        |
+| **Iteration 4 Start (Apr 1, 2025)**           | 2                         | -                        |
+| **Apr 15 (Final Testing & Bug Fixes)**        | 1                         | -                        |
+| **Apr 23 (Final Submission - Part D)**        | 0                         | -                        |
 
-📌 **Note**: Update "Actual Hours Remaining" as progress is made.
-
-![Burndownchart 1](https://github.com/user-attachments/assets/6a8c3565-b10c-426a-8f06-8f78689d21ab)
+📌 **Note**: "Actual Days Remaining" will be updated as progress is tracked.
 
 ---
 
+### **📊 Burndown Chart Visualization**
+
+Below is our **Burndown Chart**, showing the **Planned vs. Actual Days Remaining** for **IST 303 CodeQuest** milestones.
+
+![Burndownchart 1](https://github.com/user-attachments/assets/bd36d43d-1f4d-40e3-a7d8-f0d1dd7b87b9)
+
+---
+
+### **🔹 Key Insights & Enhancements**
+✅ **Tracking Through Project Completion:**  
+   - The chart extends **through April 23, 2025**, ensuring full project tracking.  
+   - We will continue monitoring **Iteration 3 & 4** progress.  
+
+✅ **Realistic Work Estimation:**  
+   - **Planned Days Remaining** steadily declines, representing expected completion.  
+   - **Actual Days Remaining** fluctuates, reflecting real progress.  
+
+✅ **Next Updates:**  
+   - **Weekly updates** to ensure **actual progress** is monitored effectively.  
+   - Continue refining actual workdays based on **team meetings & stand-ups**.  
+
+📌 **Action Item:**  
+Regularly update **Actual Days Remaining** based on completed tasks and **adjust project scope accordingly**.  
 
 ### **6. 📅 Team Meeting Logs (Part B)**  
 
@@ -136,6 +163,7 @@ To ensure accountability and clear division of work, below is the **task allocat
 Detailed meeting notes can be found in the **[Meeting Notes Folder](https://github.com/rogelg909/ist-303-team-A/tree/main/meeting_notes)**.
 
 ---
+
 ### **7. 🛠 Development and Testing Environment Setup**  
 
 Our development environment is fully set up with a structured repository and working application.  
