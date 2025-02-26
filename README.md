@@ -12,27 +12,28 @@ The quiz features multiple-choice questions, user-friendly formatting, score tra
 - Hla Win Tun
 - Emmanuel Nakitare
 ---
-## Project Stakeholders
+## 📌 Project Stakeholders
 Understanding our stakeholders helps us ensure the quiz application meets their needs.
 
-1. **Users (Learners & Developers)**  
+1. **🧑‍💻 Users (Learners & Developers)**  
    - Individuals who take the quiz to test and improve their Python knowledge.  
-   - Includes students, beginner coders, and professionals refreshing their skills.
+   - Includes students, beginner coders, and professionals refreshing their skills.  
 
-2. **Quiz Administrators (Content Managers)**  
-   - Those responsible for creating, updating, and managing quiz questions.  
-   - Could include instructors, tutors, or contributors adding new quiz content.
+2. **📖 Quiz Content Managers**  
+   - Responsible for creating, updating, and managing quiz questions.  
+   - Includes instructors, tutors, and contributors adding new quiz content.  
 
-3. **Developers (Our Team & Open Source Contributors)**  
-   - Our project team who builds and maintains the quiz application.  
-   - Future contributors who may extend functionality, add more questions, or improve performance.
+3. **👨‍💻 Developers (Team & Future Contributors)**  
+   - Our project team who builds and maintains the web-based quiz application.  
+   - Future contributors who may extend functionality, add questions, or improve performance.  
 
-4. **Educators & Instructors**  
+4. **🏫 Educators & Instructors**  
    - Teachers who may use this quiz in classrooms to engage students interactively.  
-   - Coding bootcamps integrating this quiz for training.
+   - Coding bootcamps integrating this quiz for training purposes.  
 
-5. **Platform Managers (If Integrated on a Website)**  
-   - If the project is expanded into a web application, platform owners will manage deployments, hosting, and security.
+5. **🌐 Platform Managers (Hosting & Deployment Team)**  
+   - Responsible for managing the **Flask web application**, including hosting, security, and database management.  
+   - Ensures smooth deployment, scalability, and maintenance of the online quiz platform.
 
 ---
 
