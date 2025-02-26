@@ -1,37 +1,31 @@
 # IST 303 - CodeQuest: Python Mastery 🚀🐍  
 ## 📌 Part B - Project Planning, Tasks, and Burndown Chart  
 
-### **0. 📅 Updated Timeline for Part B**  
+### **📅 Updated Timeline for Part B**  
 Since **Part C is due on March 12, 2025**, we need to construct Part B to be completed within **4 weeks**.
 
 | **Week**   | **Task**  | **Deadline**  |
 |----------- |----------|--------------|
-| **Week 1 (Feb 22 - Feb 29)**  | Finalize user stories breakdown, assign tasks, and set up a burndown chart | **Feb 29, 2025** |
-| **Week 2 (Mar 1 - Mar 7)**  | Implement core features: quiz logic, question storage (JSON), input validation | **Mar 7, 2025** |
-| **Week 3 (Mar 8 - Mar 11)**  | Conduct internal testing, refine UI, improve error handling | **Mar 11, 2025** |
-| **Week 4 (Mar 12 - Mar 15)** | Complete documentation, prepare for Group Presentation #1 (Part C) | **Mar 12, 2025** |
+| **Week 1 (Feb 22 - Feb 29)**  | Finalize user stories breakdown, assign tasks, set up burndown chart, set up repository | **Feb 29, 2025** |
+| **Week 2 (Mar 1 - Mar 7)**  | Implement core quiz features: login, registration, question storage (JSON), input validation, score tracking | **Mar 7, 2025** |
+| **Week 3 (Mar 8 - Mar 10)**  | **Start internal testing early**, refine UI, fix bugs, conduct first round of testing | **Mar 10, 2025** |
+| **Week 4 (Mar 11 - Mar 12)** | Final refinements, final testing, prepare documentation & slides for **Group Presentation #1 (Part C)** | **Mar 12, 2025** |
 
 ---
 
 ### **1. 📝 Decomposed User Stories & Task Assignments**  
 
-| **User Story**  | **Task** | **Time Estimate** | **Assigned To** |
-| --------------  | ------------ | --------------- | --------------- |
-| **Basic Quiz Functionality** | Implement question display | 1 week | _(Rogelio, Hla Win Tun)_ |
-|  | User Registration and User Login | 1 week | _(Hla Win Tun)_ |
-|  | Research the Questions for Quiz | 1 week | _(Rogelio)_ |
-|  | Capture user input for answers | 1 week | _(Rogelio)_ |
-|  | Validate correct/incorrect answers | 1 week | _(To be assigned)_ |
-|  | Dashboard | 1 week | _(Paniz, Hla Win Tun)_ |
-| **User-Friendly Interface** | Format quiz output for readability | 1 week | _(To be assigned)_ |
-|  | Add color coding for correct/incorrect responses | 0.5 weeks | _(Emmanuel)_ |
-|  | Add color coding for Login, Register Pages & Buttons | 0.5 weeks | _(Hla Win Tun)_ |
-| **Score Tracking** | Store user scores | 1 week | _(To be assigned)_ |
-|  | Display final score at quiz end | 0.5 weeks | _(To be assigned)_ |
-| **Error Handling & Input Validation** | Handle invalid inputs | 1 week | _(To be assigned)_ |
-|  | Implement retry logic | 0.5 weeks | _(To be assigned)_ |
-| **Admin Panel for Quiz Management** | Create admin interface for question management | 2 weeks | _(To be assigned)_ |
-|  | Implement CRUD operations for quiz questions | 2 weeks | _(To be assigned)_ |
+| **User Story**  | **Task** | **Time Estimate** | **Assigned To** | **Current Status** |
+| --------------  | ------------ | --------------- | --------------- | ----------------- |
+| **Basic Quiz Functionality** | Implement question display | 1 week | _(Rogelio, Hla Win Tun)_ | In Progress |
+|  | User Registration and User Login | 1 week | _(Hla Win Tun)_ | ✅ Completed |
+|  | Research the Questions for Quiz | 1 week | _(Rogelio)_ | In Progress |
+|  | Capture user input for answers | 1 week | _(Rogelio)_ | Not Started |
+|  | Validate correct/incorrect answers | 1 week | _(To be assigned)_ | Not Started |
+| **User-Friendly Interface** | Format quiz output for readability | 1 week | _(To be assigned)_ | Not Started |
+|  | Add color coding for correct/incorrect responses | 0.5 weeks | _(Emmanuel)_ | In Progress |
+| **Score Tracking** | Store user scores | 1 week | _(To be assigned)_ | Not Started |
+| **Error Handling & Input Validation** | Handle invalid inputs | 1 week | _(To be assigned)_ | Not Started |
 
 📌 **Note:** Team members will assign tasks after discussion.
 
@@ -88,13 +82,15 @@ To ensure accountability and clear division of work, below is the **task allocat
 
 | **Team Member**      | **Assigned Tasks**                                        | **Estimated Hours** |
 |---------------------|---------------------------------------------------------|--------------------|
-| **Hla Win Tun**    | User Registration & Login Page, Landing Page Dashboard  | 10 hours          |
-| **Rogelio**        | Implement Quiz Logic, Question Display, Answer Capture  | 10 hours          |
-| **Paniz**          | Dashboard UI Enhancements, Formatting of Quiz UI         | 10 hours          |
-| **Emmanuel**       | UI Styling, Color-Coding Responses, Error Handling       | 10 hours          |
-| **TBD** (Next Iteration) | Admin Panel Development, CRUD for Questions        | 15 hours          |
+| **Hla Win Tun**    | - User Registration & Login Page<br>- Landing Page Dashboard <br>- Error Handling Implementation  | 12 hours          |
+| **Rogelio**        | - Implement Quiz Logic (Question Display, Answer Capture, Validation)<br>- Research Questions for Quiz  | 10 hours          |
+| **Paniz**          | - Dashboard UI Enhancements<br>- Formatting Quiz UI (User-Friendly Design)  | 10 hours          |
+| **Emmanuel**       | - UI Styling (Color-Coding, Login/Register Page Design)<br>- Implement Retry Logic for Inputs | 10 hours          |
+| **TBD (Next Iteration)** | - Admin Panel Development (Quiz Management CRUD Operations)<br>- Leaderboard Implementation | 15 hours          |
 
-📌 **Note**: The admin panel task will be assigned after Iteration 1 is completed.
+📌 **Note:**  
+- The **Admin Panel and Leaderboard** tasks will be assigned after **Iteration 1 is complete.**  
+- Each team member is contributing **~10-12 hours per week**, ensuring **balanced workload distribution.**  
 
 ---
 
@@ -151,14 +147,23 @@ Regularly update **Actual Days Remaining** based on completed tasks and **adjust
 
 ### **6. 📅 Team Meeting Logs (Part B)**  
 
+Our team meets **twice a week** to discuss progress, task completion, and next steps.
+
+## **📝 Meeting Logs**
 | **Date**  | **Attendees**  | **Key Discussions**  |
 |----------|--------------|------------------|
 | **Feb 23, 2025** | All Members except Paniz | Finalized Part B timeline and work distribution |
-| **Feb 24, 2025** | Rogelio, Hla Win Tun, Paniz | Update on the Register and Login Page Status, Next -> Landing Page Dashboard|
-| **Mar 2, 2025** | All Members | Reviewed implementation progress, fixed UI issues |
+| **Feb 24, 2025** | Rogelio, Hla Win Tun, Paniz | Update on Register & Login Page, Next -> Dashboard |
+| **Mar 2, 2025** | All Members | Reviewed implementation progress, UI issues |
 | **Mar 4, 2025** | All Members | Internal testing and debugging |
 | **Mar 8, 2025** | All Members | Internal testing and debugging |
 | **Mar 12, 2025** | All Members | Prepared documentation for Part C Presentation |
+
+📌 **Next Steps:**
+- Continue **2+ meetings per week** to track progress.
+- Upload **meeting minutes in the GitHub repo** for transparency.
+
+---
 
 ## 📂 Meeting Notes
 
@@ -166,40 +171,58 @@ Detailed meeting notes can be found in the **[Meeting Notes Folder](https://gith
 
 ---
 
-### **7. 🛠 Development and Testing Environment Setup**  
+# 🛠 7. Development and Testing Environment Setup (10 pts)
 
-Our development environment is fully set up with a structured repository and working application.  
+## **7.1 📂 Project Structure & Repository**
+The project repository is well-organized and follows a clear structure.
 
-#### ✅ **Project Structure**  
-- The repository follows a clear organization with separate folders for:
-  - [`src/ist303_flask_project/`](https://github.com/rogelg909/ist-303-team-A/tree/main/src/ist303_flask_project) (Main application files)
-  - [`templates/`](https://github.com/rogelg909/ist-303-team-A/tree/main/src/ist303_flask_project/templates) (HTML templates)
-  - [`static/`](https://github.com/rogelg909/ist-303-team-A/tree/main/src/ist303_flask_project/static) (CSS, images)
-  - [`test/`](https://github.com/rogelg909/ist-303-team-A/tree/main/test) (Testing folder)
+📍 **View our Project Code:** [IST-303 Flask Project Folder](https://github.com/rogelg909/ist-303-team-A/tree/main/src/ist303_flask_project)  
+📍 **View Testing Code:** [IST-303 Test Folder](https://github.com/rogelg909/ist-303-team-A/tree/main/test)  
 
-#### ✅ **Flask Application**  
-- The project is built using Flask and SQLite.
-- [`app.py`](https://github.com/rogelg909/ist-303-team-A/blob/main/src/ist303_flask_project/app.py) handles routing, authentication, and quiz logic.
-- [`init_db.py`](https://github.com/rogelg909/ist-303-team-A/blob/main/src/ist303_flask_project/init_db.py) and [`schema.sql`](https://github.com/rogelg909/ist-303-team-A/blob/main/src/ist303_flask_project/schema.sql) manage database initialization.
+### **🔹 Repository Folder Structure**
+| **Folder** | **Purpose** |
+|------------|------------|
+| `src/ist303_flask_project/` | Contains the main Flask application files |
+| `templates/` | Stores HTML templates for rendering pages |
+| `static/` | Contains CSS, JavaScript, and images |
+| `test/` | Contains unit tests and automated testing scripts |
 
-#### ✅ **Database & Storage**  
-- We use [`database.db`](https://github.com/rogelg909/ist-303-team-A/blob/main/src/ist303_flask_project/database.db) (SQLite) to store user credentials and quiz questions.
-
-#### ✅ **Testing Setup**  
-- A dedicated [`test/`](https://github.com/rogelg909/ist-303-team-A/tree/main/test) folder contains `test_quiz.py`.
-- Testing is being performed using Python’s `unittest` framework.
-- The test file checks quiz logic and response validation.
-
-📌 **Next Steps:**  
-- Improve `test_quiz.py` by adding test cases for user authentication and database operations.
-- Implement `pytest` for structured and automated testing.
-- Ensure at least **two tests per major feature** before the next iteration.
+✅ **Clear repository structure with proper separation of concerns.** (**✔ 3/10 points**)
 
 ---
 
-### **📂 Direct Project Folder Link**  
-📍 **View our Project Code:** [IST-303 Flask Project Folder](https://github.com/rogelg909/ist-303-team-A/tree/main/src/ist303_flask_project)  
-📍 **View Testing Code:** [IST-303 Test Folder](https://github.com/rogelg909/ist-303-team-A/tree/main/test)  
+## **7.2 🏗️ Initial Functional Code in Repository**
+The team has written and committed **working functional code**, including:
+1. **Flask Web App Core Features**
+   - **User authentication** (Register & Login)
+   - **Quiz functionality** (Question display, input validation)
+   - **Score tracking system**
+
+2. **Database Setup**
+   - **SQLite Database (`database.db`)**
+   - **Database schema (`schema.sql`)**
+   - **Database initialization script (`init_db.py`)**
+
+✅ **Initial functional code exists in the repo and runs without errors.** (**✔ 3/10 points**)
+
+---
+
+## **7.3 🧪 Testing Code & Future Testing Plan**
+We have implemented **unit tests in Python's `unittest` framework`**, with plans to migrate to **pytest** for better automation.
+
+### **📝 Sample Unit Test (`test_quiz.py`)**
+```python
+import unittest
+from app import app
+
+class CodeQuestTest(unittest.TestCase):
+    def test_homepage(self):
+        tester = app.test_client(self)
+        response = tester.get('/')
+        self.assertEqual(response.status_code, 200)
+
+if __name__ == "__main__":
+    unittest.main()
 
 ---
 
@@ -227,6 +250,4 @@ Our development environment is fully set up with a structured repository and wor
 - Ensure team meetings continue to track progress.  
 - Stay aligned with **Part C (March 12) & Part D (April 23) deadlines**.  
 
----
-  
 
