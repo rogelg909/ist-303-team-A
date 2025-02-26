@@ -142,21 +142,21 @@ Our development environment is fully set up with a structured repository and wor
 
 #### ✅ **Project Structure**  
 - The repository follows a clear organization with separate folders for:
-  - `src/ist303_flask_project/` (Main application files)
-  - `templates/` (HTML templates)
-  - `static/` (CSS, images)
-  - `test/` (Testing folder)
+  - [`src/ist303_flask_project/`](https://github.com/rogelg909/ist-303-team-A/tree/main/src/ist303_flask_project) (Main application files)
+  - [`templates/`](https://github.com/rogelg909/ist-303-team-A/tree/main/src/ist303_flask_project/templates) (HTML templates)
+  - [`static/`](https://github.com/rogelg909/ist-303-team-A/tree/main/src/ist303_flask_project/static) (CSS, images)
+  - [`test/`](https://github.com/rogelg909/ist-303-team-A/tree/main/test) (Testing folder)
 
 #### ✅ **Flask Application**  
 - The project is built using Flask and SQLite.
-- `app.py` handles routing, authentication, and quiz logic.
-- `init_db.py` and `schema.sql` manage database initialization.
+- [`app.py`](https://github.com/rogelg909/ist-303-team-A/blob/main/src/ist303_flask_project/app.py) handles routing, authentication, and quiz logic.
+- [`init_db.py`](https://github.com/rogelg909/ist-303-team-A/blob/main/src/ist303_flask_project/init_db.py) and [`schema.sql`](https://github.com/rogelg909/ist-303-team-A/blob/main/src/ist303_flask_project/schema.sql) manage database initialization.
 
 #### ✅ **Database & Storage**  
-- We use `database.db` (SQLite) to store user credentials and quiz questions.
+- We use [`database.db`](https://github.com/rogelg909/ist-303-team-A/blob/main/src/ist303_flask_project/database.db) (SQLite) to store user credentials and quiz questions.
 
 #### ✅ **Testing Setup**  
-- A dedicated `test/` folder contains `test_quiz.py`.
+- A dedicated [`test/`](https://github.com/rogelg909/ist-303-team-A/tree/main/test) folder contains `test_quiz.py`.
 - Testing is being performed using Python’s `unittest` framework.
 - The test file checks quiz logic and response validation.
 
@@ -167,9 +167,9 @@ Our development environment is fully set up with a structured repository and wor
 
 ---
 
-### **📂 Repository Link**  
-📍 **Check out our repo:** [IST-303-Team-A Repository](https://github.com/rogelg909/ist-303-team-A)  
-📍 **Testing folder:** [View `test/` folder](https://github.com/rogelg909/ist-303-team-A/tree/main/test)  
+### **📂 Direct Project Folder Link**  
+📍 **View our Project Code:** [IST-303 Flask Project Folder](https://github.com/rogelg909/ist-303-team-A/tree/main/src/ist303_flask_project)  
+📍 **View Testing Code:** [IST-303 Test Folder](https://github.com/rogelg909/ist-303-team-A/tree/main/test)  
 
 ---
 
@@ -180,7 +180,6 @@ Our development environment is fully set up with a structured repository and wor
 - 🎯 **April 23** – Final Presentation (**Part D Submission**)  
 
 ---
-
 
 ### **✅ Final Checklist Before March 12**  
 
