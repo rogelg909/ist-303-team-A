@@ -85,17 +85,6 @@ To complete **Milestone 1.0**, we have divided the work into **2 iterations** ba
 
 ### **5. 📊 Burndown Chart Data**  
 
-| **Week** | **Estimated Work Remaining (%)** | **Actual Work Remaining (%)** |
-|---------|--------------------------------|----------------------------|
-| Week 1 (Feb 22 - Feb 29) | 100% → 75% | 100% → 80% |
-| Week 2 (Mar 1 - Mar 7) | 75% → 50% | 80% → 55% |
-| Week 3 (Mar 8 - Mar 11) | 50% → 25% | 55% → 30% |
-| Week 4 (Mar 12 - Mar 15) | 25% → 0% | 30% → 10% |
-
-📌 **Burndown chart tracks estimated vs. actual progress**.
-![Picture1](https://github.com/user-attachments/assets/983d7d75-3b93-4a84-90f3-f5518a31f43f)
-
----
 # Project Burndown Chart - IST 303 CodeQuest
 
 ## Work Hours Remaining Over Iterations
@@ -116,7 +105,7 @@ To complete **Milestone 1.0**, we have divided the work into **2 iterations** ba
 ---
 
 
-### **5. 📅 Team Meeting Logs (Part B)**  
+### **6. 📅 Team Meeting Logs (Part B)**  
 
 | **Date**  | **Attendees**  | **Key Discussions**  |
 |----------|--------------|------------------|
