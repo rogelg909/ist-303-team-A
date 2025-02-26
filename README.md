@@ -3,8 +3,8 @@
 # Project Title - CodeQuest: Python Mastery 🚀🐍
 
 ## Overview 
-This Python Quiz Application is designed to help users test and improve their Python knowledge through a fun, interactive quiz. 
-The quiz features multiple-choice questions, user-friendly formatting, score tracking, robust error handling.
+CodeQuest is a **Flask-based Python Quiz Web App** designed to help users test and improve their Python knowledge.  
+It features **multiple-choice questions, user authentication, score tracking, and interactive gameplay**.
 
 ## Team Members
 - Paniz Herrera
@@ -38,42 +38,61 @@ Understanding our stakeholders helps us ensure the quiz application meets their 
 ---
 
 ## **🚀 Key Features**
-### **✔ Core Quiz Features**
-- **Basic Quiz Functionality:**  
-  - Users can answer Python quiz questions to test their knowledge.
+### **✔ Core Features**
+- **📖 Interactive Python Quiz**
+  - Users can answer Python quiz questions to test and improve their knowledge.
   
-- **User-Friendly Interface:**  
-  - Clear, formatted questions with multiple-choice options for easy selection.
-  
-- **Score Tracking:**  
-  - At the end of the quiz, users can see their final score, allowing them to track their performance.
-  
-- **Error Handling & User Input Validation:**  
-  - The application gracefully handles incorrect inputs, prompting users to retry without interrupting the quiz experience.
+- **🎨 User-Friendly Web Interface**
+  - A clean and responsive web-based UI built with Flask & Bootstrap.
+  - Clear multiple-choice format for easy answer selection.
 
-### **🎯 Additional Features**
-- ⏳ **Timer-Based Quiz Mode** - Limits response time per question   
-- 💡 **Hints for Each Question** - Provides a hint when users struggle   
-- 🔄 **Flashcard Mode** - Allows users to review questions passively 
-- 🔊 **Sound Effects** - Plays correct/wrong answer sounds 
-- 📊 **User Progress & Quiz History** - Saves and tracks past quiz results 
-- 🏆 **Leaderboard** - Displays top 5 players' highest scores 
-- ✍️ **Custom Quiz Creation** - Admins can create and modify quizzes  
-- 🎯 **Adaptive Difficulty** - Adjusts question difficulty based on user performance   
+- **📊 Score Tracking**
+  - Displays the final score at the end of the quiz for progress tracking.
+
+- **✅ Secure User Authentication**
+  - Login and registration system to track user progress.
+
+- **⚠️ Robust Error Handling**
+  - Handles invalid inputs gracefully and provides retry prompts.
+
+### **🎯 Additional Features (Planned Enhancements)**
+- ⏳ **Timer-Based Quiz Mode** – Limits response time per question.  
+- 💡 **Hints for Each Question** – Provides a hint to help users learn.  
+- 🔄 **Flashcard Mode** – Allows users to review questions passively.  
+- 🔊 **Sound Effects** – Plays correct/wrong answer sounds for engagement.  
+- 📊 **User Progress & Quiz History** – Saves past quiz results for review.  
+- 🏆 **Leaderboard** – Displays top players’ highest scores.  
+- ✍️ **Custom Quiz Creation** – Admins can create and manage quizzes dynamically.  
+- 🎯 **Adaptive Difficulty System** – Adjusts question difficulty based on performance.  
 
 ---
  
-## Techinical Stack 
-- **Programming Language:**
-  -Python 3.x
+## ⚙️ Technical Stack
 
-- **Libraries & Frameworks:**
-  - **Built-in Modules:**
-    -e.g. 'json'
+### **🖥 Programming Language:**
+- **Python 3.x** – Core language used for development.
 
-- **Development Tools:**
-  - Code Editor: Visual Studio Code or other preferred Python IDE.
-  - Version Control: Git & GitHub
+### **📚 Libraries & Frameworks:**
+- **Backend:**
+  - Flask – Web framework for building the quiz application.
+  - Flask-SQLAlchemy – ORM for database management.
+  - Flask-Login – Handles user authentication.
+  
+- **Frontend:**
+  - HTML, CSS, Bootstrap – For designing the UI.
+  - JavaScript – Enhancing interactivity (optional).
+
+- **Database:**
+  - SQLite (default) – Lightweight database for local development.
+  - PostgreSQL (planned) – For production deployment.
+
+### **🛠 Development Tools:**
+- **Code Editor:** Visual Studio Code (or preferred Python IDE).
+- **Version Control:** Git & GitHub for repository management.
+- **Virtual Environment:** `venv` (to manage dependencies).
+- **Deployment (Future Consideration):**  
+  - Gunicorn (for production WSGI server)  
+  - Render / Heroku / AWS (for hosting)  
 
 ---
 
