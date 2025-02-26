@@ -115,6 +115,8 @@ To complete **Milestone 1.0**, we have divided the work into **2 iterations** ba
 | **Mar 8, 2025** | All Members | Internal testing and debugging |
 | **Mar 12, 2025** | All Members | Prepared documentation for Part C Presentation |
 
+Details meeting nodes can be found under the meeting ntoes folder here.
+https://github.com/rogelg909/ist-303-team-A/tree/main/meeting_notes
 ---
 
 ### **6. 🔜 Next Steps (Beyond Part B)**  
