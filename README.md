@@ -11,7 +11,7 @@ The quiz features multiple-choice questions, user-friendly formatting, score tra
 - Rogelio E. Garcia
 - Hla Win Tun
 - Emmanuel Nakitare
-
+---
 ## Project Stakeholders
 Understanding our stakeholders helps us ensure the quiz application meets their needs.
 
@@ -33,6 +33,8 @@ Understanding our stakeholders helps us ensure the quiz application meets their 
 
 5. **Platform Managers (If Integrated on a Website)**  
    - If the project is expanded into a web application, platform owners will manage deployments, hosting, and security.
+
+---
 
 ## **🚀 Key Features**
 ### **✔ Core Quiz Features**
@@ -58,6 +60,7 @@ Understanding our stakeholders helps us ensure the quiz application meets their 
 - ✍️ **Custom Quiz Creation** - Admins can create and modify quizzes  
 - 🎯 **Adaptive Difficulty** - Adjusts question difficulty based on user performance   
 
+---
  
 ## Techinical Stack 
 - **Programming Language:**
@@ -70,6 +73,8 @@ Understanding our stakeholders helps us ensure the quiz application meets their 
 - **Development Tools:**
   - Code Editor: Visual Studio Code or other preferred Python IDE.
   - Version Control: Git & GitHub
+
+---
 
 ## 📜 User Stories & Estimated Completion Times
 
@@ -91,22 +96,38 @@ Understanding our stakeholders helps us ensure the quiz application meets their 
 | **✍️ Custom Quiz Creation Mode** | Medium | As an admin, I want to create my own quiz sets by adding custom questions and answers. | **2 weeks** |
 | **🎯 Adaptive Difficulty System** | High | As a user, I want the quiz to adjust its difficulty based on my performance so that I am continuously challenged at my level. | **2 weeks** |
 
-## 8 - 10 week Development Timelime
+---
+
+## 📅 Updated 10-12 Week Development Timeline
+
 | **Week**   | **Task**|
 |----------- | ----------|
-| **Week 1** | Define project scope, set up the development environment, and plan key features. |
-| **Week 2** | Implement basic quiz functionality including question display, answer input, and basic flow control. |
-| **Week 3** | Improve the quiz format for a better user experience with clear formatting and structured output. |
-| **Week 4** | Add multiple-choice support and implement score tracking to display results at the end of the quiz. |
-| **Week 5** | Enhance error handling: manage invalid inputs, implement retry prompts, and allow for multiple correct answers if needed. |
-| **Week 6** | Store quiz questions in an external file (JSON or TOML) and implement functionality to load questions dynamically. |
-| **Week 7** | Add additional features such as hints, explanations for answers, and randomization of questions to enhance replayability. |
-| **Week 8** | Debug, optimize code structure, and refactor using functions for better maintainability and readability. |
-| **Week 9** | Conduct user testing, fix reported issues, and finalize UI improvements based on feedback. |
-| **Week 10** | Deploy the final version and document the project for future expansion and maintenance. |
+| **Week 1** | Define project scope, finalize user stories, set up the development environment, and assign team roles. |
+| **Week 2** | Implement basic quiz functionality: question display, answer input, and basic flow control. |
+| **Week 3** | Improve the quiz format for a better user experience: clear formatting, structured output, and validation of answers. |
+| **Week 4** | Add multiple-choice support, implement score tracking, and test initial quiz flow. |
+| **Week 5** | Implement robust error handling: manage invalid inputs, implement retry prompts, and refine answer validation logic. |
+| **Week 6** | Store quiz questions in an external file (JSON or TOML), allow dynamic loading, and develop an admin panel for quiz management. |
+| **Week 7** | Introduce **hints**, **question explanations**, and **randomization of questions** for enhanced replayability. |
+| **Week 8** | Implement **timer-based quiz mode**, **flashcard mode**, and refine question selection logic. |
+| **Week 9** | Add **leaderboard functionality**, **user progress tracking**, and **quiz history storage**. |
+| **Week 10** | Debug, optimize code structure, and refactor using functions and object-oriented design for maintainability. |
+| **Week 11** | Conduct **comprehensive user testing**, gather feedback, and fix reported issues. |
+| **Week 12** | Final deployment, documentation, and preparation for future expansion. |
+
+## 🔄 Adjustments & Considerations:
+- **Increased focus on error handling & UX improvements (Weeks 5-7).**
+- **Extended development time (10-12 weeks instead of 8-10 weeks) to accommodate testing and iterations.**
+- **Early implementation of dynamic quiz management (Week 6) ensures flexibility for future enhancements.**
+- **Feature prioritization: Core quiz mechanics first, followed by enhancements.**
+- **Week 11 allocated for thorough testing and bug fixes before final deployment.**
+
+---
 
 ## 📂 Additional Documentation
 - 📜 [Part B - Project Planning & Breakdown](PART_B.md)
+
+---
 
 ## Contact 
 # Emails
