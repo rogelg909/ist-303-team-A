@@ -208,21 +208,22 @@ The team has written and committed **working functional code**, including:
 ---
 
 ## **7.3 🧪 Testing Code & Future Testing Plan**
-We have implemented **unit tests in Python's `unittest` framework`**, with plans to migrate to **pytest** for better automation.
+We have implemented **unit tests using `pytest` and `unittest` frameworks**, with plans to expand coverage.
 
-### **📝 Sample Unit Test (`test_quiz.py`)**
-```python
-import unittest
-from app import app
+### **📝 Unit Testing Strategy**
+- Tests are located in the `test/` folder.
+- **File:** [`test_quiz.py`](https://github.com/ist-303-team-A/test/test_quiz.py)
+- Current tests include:
+  - **Basic math operation test (placeholder).**
+  - **Home page accessibility test (Flask route validation).**
+  - **User authentication tests (Planned).**
+  - **Database integration tests (Planned).**
 
-class CodeQuestTest(unittest.TestCase):
-    def test_homepage(self):
-        tester = app.test_client(self)
-        response = tester.get('/')
-        self.assertEqual(response.status_code, 200)
-
-if __name__ == "__main__":
-    unittest.main()
+### **📌 Next Steps for Testing**
+✅ Add user authentication tests.  
+✅ Expand database integration tests.  
+✅ Implement test automation via **GitHub Actions**.  
+✅ Migrate existing tests from `unittest` to `pytest`.  
 
 ---
 
