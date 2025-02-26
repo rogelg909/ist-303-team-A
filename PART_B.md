@@ -17,7 +17,7 @@ Since **Part C is due on March 12, 2025**, we need to construct Part B to be com
 
 | **User Story**  | **Task** | **Time Estimate** | **Assigned To** |
 | --------------  | ------------ | --------------- | --------------- |
-| **Basic Quiz Functionality** | Implement question display | 1 week | _(To be assigned)_ |
+| **Basic Quiz Functionality** | Implement question display | 1 week | _(Rogelio, Hla Win Tun)_ |
 |  | User Registration and User Login | 1 week | _(Hla Win Tun)_ |
 |  | Research the Questions for Quiz | 1 week | _(Rogelio)_ |
 |  | Capture user input for answers | 1 week | _(Rogelio)_ |
@@ -80,6 +80,21 @@ To complete **Milestone 1.0**, we have divided the work into **2 iterations** ba
 - **Team Capacity:** 40 hours/week (4 members × 10 hours each)  
 - **Planned Iterations:** 2 iterations, each completing ~50% of the workload  
 - **Completion Goal:** Ensure the project is stable & testable before **March 12 (Part C deadline)**  
+
+---
+### **🔹 4. Task Allocation Table - Who is Doing What?**  
+
+To ensure accountability and clear division of work, below is the **task allocation** for our team members.  
+
+| **Team Member**      | **Assigned Tasks**                                        | **Estimated Hours** |
+|---------------------|---------------------------------------------------------|--------------------|
+| **Hla Win Tun**    | User Registration & Login Page, Landing Page Dashboard  | 10 hours          |
+| **Rogelio**        | Implement Quiz Logic, Question Display, Answer Capture  | 10 hours          |
+| **Paniz**          | Dashboard UI Enhancements, Formatting of Quiz UI         | 10 hours          |
+| **Emmanuel**       | UI Styling, Color-Coding Responses, Error Handling       | 10 hours          |
+| **TBD** (Next Iteration) | Admin Panel Development, CRUD for Questions        | 15 hours          |
+
+📌 **Note**: The admin panel task will be assigned after Iteration 1 is completed.
 
 ---
 
