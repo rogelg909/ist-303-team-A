@@ -137,7 +137,7 @@ Detailed meeting notes can be found in the **[Meeting Notes Folder](https://gith
 
 ---
 
-### **6. 🔜 Next Steps (Beyond Part B)**  
+### **7. 🔜 Next Steps (Beyond Part B)**  
 
 - 🎯 **March 12** – Group Presentation #1 (**Part C Submission**)  
 - 🎯 **March 15 - April 22** – Iterations for **Milestone 2.0 & Part D Work**  
