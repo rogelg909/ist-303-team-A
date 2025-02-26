@@ -131,7 +131,7 @@ Below is our **Burndown Chart**, showing the **Planned vs. Actual Days Remaining
 
 ---
 
-### **🔹 Key Insights & Enhancements**
+### **🔹 Key Insights **
 ✅ **Tracking Through Project Completion:**  
    - The chart extends **through April 23, 2025**, ensuring full project tracking.  
    - We will continue monitoring **Iteration 3 & 4** progress.  
@@ -146,6 +146,8 @@ Below is our **Burndown Chart**, showing the **Planned vs. Actual Days Remaining
 
 📌 **Action Item:**  
 Regularly update **Actual Days Remaining** based on completed tasks and **adjust project scope accordingly**.  
+
+---
 
 ### **6. 📅 Team Meeting Logs (Part B)**  
 
