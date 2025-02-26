@@ -37,50 +37,17 @@ Since **Part C is due on March 12, 2025**, we need to construct Part B to be com
 
 ---
 
-### **3. 🎯 Milestone 1.0 Deliverables (Completion by March 12)**  
+### **2. 🎯 Milestone 1.0 Deliverables (Completion by March 12)**  
 
 ✅ User Registration and Login  
 ✅ Basic Quiz Functionality (Users can take a Python quiz)  
 ✅ User Interface with formatted questions & options  
 ✅ Score Tracking (Users see final score at the end)  
 ✅ Error Handling (Handles invalid inputs)  
-✅ Basic Quiz Question Storage (JSON File)  
+✅ Basic Quiz Question Storage   
 
 ---
-
-### **4. 📊 Burndown Chart Data**  
-
-| **Week** | **Estimated Work Remaining (%)** | **Actual Work Remaining (%)** |
-|---------|--------------------------------|----------------------------|
-| Week 1 (Feb 22 - Feb 29) | 100% → 75% | 100% → 80% |
-| Week 2 (Mar 1 - Mar 7) | 75% → 50% | 80% → 55% |
-| Week 3 (Mar 8 - Mar 11) | 50% → 25% | 55% → 30% |
-| Week 4 (Mar 12 - Mar 15) | 25% → 0% | 30% → 10% |
-
-📌 **Burndown chart tracks estimated vs. actual progress**.
-![Picture1](https://github.com/user-attachments/assets/983d7d75-3b93-4a84-90f3-f5518a31f43f)
-
----
-# Project Burndown Chart - IST 303 CodeQuest
-
-## Work Hours Remaining Over Iterations
-
-| Iteration Milestone                          | Planned Hours Remaining | Actual Hours Remaining |
-|---------------------------------------------|------------------------|-----------------------|
-| **Iteration 1 Start**                        | 80                     | 80                    |
-| **Feb 24 (Completed Register & Login Page)** | 70                     | 75                    |
-| **Feb 26 (Planned Completion of Iteration 1)** | 60                     | -                     |
-| **Iteration 2 Start (Mar 8)**                | 50                     | -                     |
-| **Mar 10 (Midpoint of Iteration 2)**         | 40                     | -                     |
-| **Mar 12 (Planned Completion of Iteration 2)** | 30                     | -                     |
-
-📌 **Note**: Update "Actual Hours Remaining" as progress is made.
-
-![Burndownchart 1](https://github.com/user-attachments/assets/6a8c3565-b10c-426a-8f06-8f78689d21ab)
-
----
-
-### **4.1 🔄 Iteration Breakdown for Milestone 1.0**
+### **3. 🔄 Iteration Breakdown for Milestone 1.0**
 
 To complete **Milestone 1.0**, we have divided the work into **2 iterations** based on the team's velocity.
 
@@ -113,6 +80,41 @@ To complete **Milestone 1.0**, we have divided the work into **2 iterations** ba
 - **Team Capacity:** 40 hours/week (4 members × 10 hours each)  
 - **Planned Iterations:** 2 iterations, each completing ~50% of the workload  
 - **Completion Goal:** Ensure the project is stable & testable before **March 12 (Part C deadline)**  
+
+---
+
+### **5. 📊 Burndown Chart Data**  
+
+| **Week** | **Estimated Work Remaining (%)** | **Actual Work Remaining (%)** |
+|---------|--------------------------------|----------------------------|
+| Week 1 (Feb 22 - Feb 29) | 100% → 75% | 100% → 80% |
+| Week 2 (Mar 1 - Mar 7) | 75% → 50% | 80% → 55% |
+| Week 3 (Mar 8 - Mar 11) | 50% → 25% | 55% → 30% |
+| Week 4 (Mar 12 - Mar 15) | 25% → 0% | 30% → 10% |
+
+📌 **Burndown chart tracks estimated vs. actual progress**.
+![Picture1](https://github.com/user-attachments/assets/983d7d75-3b93-4a84-90f3-f5518a31f43f)
+
+---
+# Project Burndown Chart - IST 303 CodeQuest
+
+## Work Hours Remaining Over Iterations
+
+| Iteration Milestone                          | Planned Hours Remaining | Actual Hours Remaining |
+|---------------------------------------------|------------------------|-----------------------|
+| **Iteration 1 Start**                        | 80                     | 80                    |
+| **Feb 24 (Completed Register & Login Page)** | 70                     | 75                    |
+| **Feb 26 (Planned Completion of Iteration 1)** | 60                     | -                     |
+| **Iteration 2 Start (Mar 8)**                | 50                     | -                     |
+| **Mar 10 (Midpoint of Iteration 2)**         | 40                     | -                     |
+| **Mar 12 (Planned Completion of Iteration 2)** | 30                     | -                     |
+
+📌 **Note**: Update "Actual Hours Remaining" as progress is made.
+
+![Burndownchart 1](https://github.com/user-attachments/assets/6a8c3565-b10c-426a-8f06-8f78689d21ab)
+
+---
+
 
 ### **5. 📅 Team Meeting Logs (Part B)**  
 
