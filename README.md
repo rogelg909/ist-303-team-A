@@ -78,49 +78,48 @@ Understanding our stakeholders helps us ensure the quiz application meets their 
 
 ## 📜 User Stories & Estimated Completion Times
 
-| **User Story**  | **Priority** | **Description** | **Estimated Time** |
+| **User Story**  | **Priority** | **Description** | **Updated Est. Time** |
 | --------------  | ------------ | --------------- | ------------------ |
-| **Basic Quiz Functionality**  | High | As a user, I want to answer Python quiz questions so that I can test my knowledge and improve my skills. | **1.5 weeks** |
+| **Basic Quiz Functionality**  | High | As a user, I want to answer Python quiz questions so that I can test my knowledge and improve my skills. | **1 week** |
 | **User-Friendly Interface**  | High | As a user, I want the quiz to display clear and formatted questions with multiple choices so that I can easily select my answer. | **1 week** |
-| **Score Tracking** | Medium | As a user, I want to see my score at the end of the quiz so that I can track my performance. | **1 week** |
-| **Error Handling & Input Validation** | High | As a user, I want the quiz to handle incorrect inputs gracefully so that I can retry without breaking the experience. | **1.5 weeks** |
-| **Admin Panel for Quiz Management** | High | As an admin, I want to create, update, and delete quiz questions so that I can manage quiz content dynamically. | **2 weeks** |
-| **User Profiles & Score History** | Medium | As a user, I want my previous quiz scores to be saved so I can track my progress over time. | **2 weeks** |
-| **Randomized Questions per Attempt** | Medium | As a user, I want different quiz questions each time I play so that I can get a fresh learning experience. | **1.5 weeks** |
-| **⏳ Timer-Based Quiz Mode** | High | As a user, I want a time limit for each question so that I can challenge my speed and accuracy. | **1 week** |
-| **💡 Hints for Each Question** | Medium | As a user, I want to receive hints when I am unsure about an answer so that I can learn rather than guess. | **1 week** |
-| **🔄 Flashcard Mode** | Medium | As a user, I want to review questions in flashcard format so that I can study passively before taking the quiz. | **1 week** |
-| **🔊 Sound Effects for Correct/Wrong Answers** | Low | As a user, I want sound effects to play when I get an answer right or wrong to make the quiz more interactive. | **0.5 weeks** |
+| **Score Tracking** | High | As a user, I want to see my score at the end of the quiz so that I can track my performance. | **0.5 week** |
+| **Error Handling & Input Validation** | High | As a user, I want the quiz to handle incorrect inputs gracefully so that I can retry without breaking the experience. | **1 week** |
+| **Admin Panel for Quiz Management** | High | As an admin, I want to create, update, and delete quiz questions so that I can manage quiz content dynamically. | **1.5 weeks** |
+| **Randomized Questions per Attempt** | Medium | As a user, I want different quiz questions each time I play so that I can get a fresh learning experience. | **1 week** |
+| **⏳ Timer-Based Quiz Mode** | Medium | As a user, I want a time limit for each question so that I can challenge my speed and accuracy. | **1 week** |
 | **📊 User Progress & Quiz History** | Medium | As a user, I want to see my past quiz scores and track my improvements over time. | **1.5 weeks** |
 | **🏆 Leaderboard (Top 5 Players)** | Medium | As a user, I want to see a leaderboard that shows the top players so that I can compete with others. | **1.5 weeks** |
 | **✍️ Custom Quiz Creation Mode** | Medium | As an admin, I want to create my own quiz sets by adding custom questions and answers. | **2 weeks** |
-| **🎯 Adaptive Difficulty System** | High | As a user, I want the quiz to adjust its difficulty based on my performance so that I am continuously challenged at my level. | **2 weeks** |
+| **🎯 Adaptive Difficulty System** | Low (Future) | As a user, I want the quiz to adjust its difficulty based on my performance so that I am continuously challenged at my level. | **(Deprioritized for future updates)** |
+
+---
+### **🚀 Adjustments Summary:**
+- **Kept Core Features:** Basic quiz functionality, user interface, score tracking, and error handling remain the top priority.
+- **Batching Features:** Related features (e.g., quiz history, leaderboard) are grouped to improve workflow efficiency.
+- **Deprioritized Non-Essential Features:** **Flashcard Mode, Sound Effects, and Adaptive Difficulty** are moved to future updates.
+- **Strict Deadline Awareness:** Each feature is scoped within the available time before **April 23**, ensuring completion.
 
 ---
 
 ## 📅 Updated 10-12 Week Development Timeline
 
-| **Week**   | **Task**|
-|----------- | ----------|
-| **Week 1** | Define project scope, finalize user stories, set up the development environment, and assign team roles. |
-| **Week 2** | Implement basic quiz functionality: question display, answer input, and basic flow control. |
-| **Week 3** | Improve the quiz format for a better user experience: clear formatting, structured output, and validation of answers. |
-| **Week 4** | Add multiple-choice support, implement score tracking, and test initial quiz flow. |
-| **Week 5** | Implement robust error handling: manage invalid inputs, implement retry prompts, and refine answer validation logic. |
-| **Week 6** | Store quiz questions in an external file (JSON or TOML), allow dynamic loading, and develop an admin panel for quiz management. |
-| **Week 7** | Introduce **hints**, **question explanations**, and **randomization of questions** for enhanced replayability. |
-| **Week 8** | Implement **timer-based quiz mode**, **flashcard mode**, and refine question selection logic. |
-| **Week 9** | Add **leaderboard functionality**, **user progress tracking**, and **quiz history storage**. |
-| **Week 10** | Debug, optimize code structure, and refactor using functions and object-oriented design for maintainability. |
-| **Week 11** | Conduct **comprehensive user testing**, gather feedback, and fix reported issues. |
-| **Week 12** | Final deployment, documentation, and preparation for future expansion. |
+| **Week**   | **Task** |
+|----------- |----------|
+| **Week 1 (Feb 26 - Mar 3)** | Define project scope, finalize user stories, set up development environment, assign team roles. |
+| **Week 2 (Mar 4 - Mar 10)** | Implement **Basic Quiz Functionality**: Question display, answer input, and flow control. |
+| **Week 3 (Mar 11 - Mar 17)** | Improve **User Interface & Formatting**, add **Multiple-Choice Support**, and refine quiz logic. |
+| **Week 4 (Mar 18 - Mar 24)** | Implement **Score Tracking & Randomized Question Selection** for dynamic quizzes. |
+| **Week 5 (Mar 25 - Mar 31)** | Develop **Error Handling & Input Validation**, ensure quiz handles incorrect inputs gracefully. |
+| **Week 6 (Apr 1 - Apr 7)** | Build **Admin Panel for Quiz Management**, allow adding/updating/deleting questions. |
+| **Week 7 (Apr 8 - Apr 14)** | Implement **Leaderboard & User Quiz History** to track progress over time. |
+| **Week 8 (Apr 15 - Apr 21)** | Final testing, **Bug Fixes, Code Optimization**, and UI refinements. |
+| **Apr 22 - Apr 23** | Final Deployment & Documentation. **Submit Project.** ✅ |
 
 ## 🔄 Adjustments & Considerations:
-- **Increased focus on error handling & UX improvements (Weeks 5-7).**
-- **Extended development time (10-12 weeks instead of 8-10 weeks) to accommodate testing and iterations.**
-- **Early implementation of dynamic quiz management (Week 6) ensures flexibility for future enhancements.**
-- **Feature prioritization: Core quiz mechanics first, followed by enhancements.**
-- **Week 11 allocated for thorough testing and bug fixes before final deployment.**
+- **Prioritized Core Features** to meet deadline.
+- **Batching Tasks Efficiently** to avoid bottlenecks.
+- **Moved Less Critical Features (e.g., Adaptive Difficulty) to Future Enhancements**.
+- **Final Week Dedicated to Testing & Optimization** to ensure smooth delivery.
 
 ---
 
