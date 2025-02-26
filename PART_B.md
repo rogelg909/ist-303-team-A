@@ -187,8 +187,6 @@ The project repository is well-organized and follows a clear structure.
 | `static/` | Contains CSS, JavaScript, and images |
 | `test/` | Contains unit tests and automated testing scripts |
 
-✅ **Clear repository structure with proper separation of concerns.** (**✔ 3/10 points**)
-
 ---
 
 ## **7.2 🏗️ Initial Functional Code in Repository**
@@ -202,8 +200,6 @@ The team has written and committed **working functional code**, including:
    - **SQLite Database (`database.db`)**
    - **Database schema (`schema.sql`)**
    - **Database initialization script (`init_db.py`)**
-
-✅ **Initial functional code exists in the repo and runs without errors.** (**✔ 3/10 points**)
 
 ---
 
