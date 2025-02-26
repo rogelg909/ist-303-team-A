@@ -110,8 +110,9 @@ To complete **Milestone 1.0**, we have divided the work into **2 iterations** ba
 | **Date**  | **Attendees**  | **Key Discussions**  |
 |----------|--------------|------------------|
 | **Feb 23, 2025** | All Members except Paniz | Finalized Part B timeline and work distribution |
-| **Feb 24, 2025** | Rogelio, Hla Win Tun | Update on the Landing page,  |
-| **Mar 1, 2025** | All Members | Reviewed implementation progress, fixed UI issues |
+| **Feb 24, 2025** | Rogelio, Hla Win Tun, Paniz | Update on the Register and Login Page Status, Next -> Landing Page Dashboard|
+| **Mar 2, 2025** | All Members | Reviewed implementation progress, fixed UI issues |
+| **Mar 4, 2025** | All Members | Internal testing and debugging |
 | **Mar 8, 2025** | All Members | Internal testing and debugging |
 | **Mar 12, 2025** | All Members | Prepared documentation for Part C Presentation |
 
