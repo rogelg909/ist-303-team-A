@@ -212,7 +212,7 @@ We have implemented **unit tests using `pytest` and `unittest` frameworks**, wit
 
 ### **📝 Unit Testing Strategy**
 - Tests are located in the `test/` folder.
-- **File:** [`test_quiz.py`](https://github.com/ist-303-team-A/test/test_quiz.py)
+- **File:** [`test_quiz.py`](https://github.com/rogelg909/ist-303-team-A/blob/main/test/test_quiz.py)
 - Current tests include:
   - **Basic math operation test (placeholder).**
   - **Home page accessibility test (Flask route validation).**
