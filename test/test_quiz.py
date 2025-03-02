@@ -1,5 +1,3 @@
-# test_quiz.py - Unit tests for CodeQuest
-
 import unittest
 from app import app
 
@@ -14,4 +12,3 @@ class CodeQuestTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

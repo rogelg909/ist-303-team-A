@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-5 text-center">
+    <h2>🎉 Quiz Completed!</h2>
+    <p>Your final score: <strong>{{ score }} / 10</strong></p>
+    
+    <div class="mt-4">
+        <a href="{{ url_for('start_quiz', category=category) }}" class="btn btn-primary">Retry Quiz</a>
+        <a href="{{ url_for('index') }}" class="btn btn-secondary">Go to Dashboard</a>
+    </div>
+
+    <div class="mt-4">
+        <p>Share your result with friends!</p>
+        <button class="btn btn-success" onclick="shareResult()">📤 Share</button>
+    </div>
+</div>
+
+<script>
+function shareResult() {
+    const text = "I just completed the {{ category }} quiz on IST303 Team A Quiz and scored {{ score }} out of 10! 🎉";
+    navigator.clipboard.writeText(text);
+    alert("Quiz result copied to clipboard! Share it with friends.");
+}
+</script>
+{% endblock %}
+
