@@ -73,6 +73,58 @@ def test_quiz_logic():
 
 ---
 
+---
+
+# **Iteration 2: Enhancements & Presentation Preparation**
+
+## **Key Focus Areas**
+Following the completion of **Iteration 1**, which established the **core quiz functionality**, the **Iteration 2 sprint (March 8 - March 12)** was focused on:
+✅ **UI improvements for a more engaging user experience**  
+✅ **Enhancing quiz logic with additional retry features**  
+✅ **Preparing the Part C presentation and documentation**  
+
+---
+
+## **Iteration 2 Sprint Breakdown**
+| **Task**                                        | **Time Estimate** | **Completion Status** |
+|------------------------------------------------|-----------------|------------------|
+| **Improve UI responsiveness and styling**       | 5 hours         | ✅ Completed |
+| **Enhance quiz feedback with color-coded responses** | 5 hours | ✅ Completed |
+| **Implement retry logic for incorrect answers** | 5 hours         | ✅ Completed |
+| **Conduct internal testing & UI fixes**         | 10 hours        | ✅ Completed |
+| **Prepare for Part C presentation**             | 5 hours         | ✅ Completed |
+| **Finalize GitHub documentation & README updates** | 5 hours | ✅ Completed |
+
+📌 **Total Iteration 2 Workload:** **40 hours**  
+
+---
+
+## **Velocity Consideration**
+- **Total Workload for Iteration 1 & 2:** **80 hours**  
+- **Team Capacity:** **40 hours/week (4 members × 10 hours each)**  
+- **Planned Iterations Before Milestone 1.0 Completion:** **2 iterations**  
+- **Completion Goal:** **Ensure the project is presentation-ready before March 12 (Part C deadline).**  
+
+---
+
+## **Beyond Iteration 2: Preparing for Milestone 2.0**
+With **Iteration 2** completed, we are transitioning towards **Milestone 2.0**, which focuses on **enhanced features and scalability**. The next iteration will include:
+
+📌 **Iteration 3 (Mar 15 - Mar 22)**  
+🔹 **Admin Panel Development** (Manage users & quiz content)  
+🔹 **Backend refinements for database efficiency**  
+🔹 **Expanded Question Categories** (Python, SQL, Data Science)  
+
+📌 **Iteration 4 (Mar 22 - Mar 29)**  
+🔹 **Implement Leaderboard** (Show top quiz performers)  
+🔹 **Enhanced Security Features** (User authentication improvements)  
+
+📌 **Final Testing & Bug Fixes (Apr 1 - Apr 15)**  
+🔹 **UI Optimization & Performance Testing**  
+🔹 **Mobile Responsiveness Improvements**  
+
+---
+
 # **Burndown Chart - Workdays Remaining**  
 
 ## **Burndown Chart: Workdays Left for IST 303 Milestones**  
@@ -92,6 +144,8 @@ def test_quiz_logic():
 | **Apr 15 - 23 (Final Testing & Bug Fixes, Part D Submission)**       |                  | 
 
 📌 **Note:** The "Actual Days Remaining" will be updated as progress continues.
+
+![Burndownchart 20250307](https://github.com/user-attachments/assets/490d8dd4-4440-4c6b-95c1-389da45880a6)
 
 ---
 
