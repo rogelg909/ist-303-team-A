@@ -120,5 +120,5 @@ The next milestone will **enhance functionality, scalability, and usability** to
 
 ---
 
-This file should be uploaded to the **Part C folder (`PartC/`)** in your GitHub repository. 🚀  
+
 
