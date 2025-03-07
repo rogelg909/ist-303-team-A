@@ -70,3 +70,55 @@ We conducted **manual testing** and **automated unit tests** to ensure quality.
 ```python
 def test_quiz_logic():
     assert evaluate_answer("correct_answer") == True
+
+---
+
+# **Burndown Chart - Workdays Remaining**  
+
+## **Burndown Chart: Workdays Left for IST 303 Milestones**  
+
+| **Iteration Milestone**                        | **Planned Days Remaining** | **Actual Days Remaining** |
+|---------------------------------------------|------------------------|-----------------------|
+| **Iteration 1 Start (Feb 22, 2025)**         | 20                     | 20                    |
+| **Feb 24 (Completed Register & Login Page)** | 18                  | 18.76                 |
+| **Feb 26 (Planned Completion of Iteration 1)** | 16                  | 15                    |
+| **Iteration 2 Start (Mar 8, 2025)**          | 14                   | 13                    |
+| **Mar 10 (Midpoint of Iteration 2)**         | 12                   | 11.5                     |
+| **Mar 12 (Planned Completion of Iteration 2)** | 10                    | 11                    |
+| **Iteration 3 Start (Mar 15, 2025)**         | 8                    | -                     |
+| **Mar 22 (Milestone 2 Midpoint)**            | 6                     | -                     |
+| **Mar 29 (Completion of Milestone 2)**       | 4                    | -                     |
+| **Iteration 4 Start (Apr 1, 2025)**          | 2                   | -                     |
+| **Apr 15 - 23 (Final Testing & Bug Fixes, Part D Submission)**       |                  | 
+
+📌 **Note:** The "Actual Days Remaining" will be updated as progress continues.
+
+---
+
+# **Upcoming Features & Next Steps**  
+
+## **What Remains for Milestone 2.0?**
+The next milestone will **enhance functionality, scalability, and usability** to make CodeQuest a **fully operational and refined quiz system**.
+
+### **Upcoming Features**
+- **Admin Panel**: Allow management of quiz questions and user accounts  
+- **Leaderboard**: Display top scores and rankings  
+- **Expanded Question Categories**: Include Python, SQL, Data Science, and more  
+- **UI Enhancements**: Improved layout, animations, and mobile responsiveness  
+
+---
+
+## **Development Timeline**  
+
+| **Feature**                     | **Planned Completion** |
+|----------------------------------|-----------------------|
+| **Admin Panel Development**      | March 20, 2025       |
+| **Implement Leaderboard**        | March 27, 2025       |
+| **UI Enhancements**              | April 5, 2025        |
+| **Final Testing**                | April 15, 2025       |
+| **Submission (Part D)**          | April 23, 2025       |
+
+---
+
+This file should be uploaded to the **Part C folder (`PartC/`)** in your GitHub repository. 🚀  
+
