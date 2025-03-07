@@ -2,7 +2,7 @@
 
 ## 📌 **Presentation Plan & Deliverables**  
 
-This document provides a structured outline for the **Part C** presentation, aligning with the **grading rubric** to ensure all requirements are met.  
+This document provides a structured outline for the **Part C** presentation.  
 
 ---
 
