@@ -67,7 +67,7 @@ We conducted **manual testing** and **automated unit tests** to ensure quality.
 - **Score Display**: Checked if the final score is calculated correctly  
 
 #### **Unit Testing (`test/test_quiz.py`)**
-```python
+Python
 def test_quiz_logic():
     assert evaluate_answer("correct_answer") == True
 
