@@ -79,6 +79,7 @@ def test_quiz_logic():
 
 ## **Key Focus Areas**
 Following the completion of **Iteration 1**, which established the **core quiz functionality**, the **Iteration 2 sprint (March 8 - March 12)** was focused on:
+
 ✅ **UI improvements for a more engaging user experience**  
 ✅ **Enhancing quiz logic with additional retry features**  
 ✅ **Preparing the Part C presentation and documentation**  
