@@ -1,15 +1,18 @@
 # **IST 303 CodeQuest - Part C Presentation** 🚀🐍  
 
 ## 📌 **Presentation Plan & Deliverables**  
-
-This document provides a structured outline for the **Part C** presentation.  
+This document provides a structured outline for the **Part C** presentation, including the project overview, agile methods, testing approach, and iteration breakdown.
 
 ---
 
 ## **Introduction**  
 
 ### **Project Overview**
-CodeQuest - Python Mastery is an **interactive Python quiz application** designed to help users test and improve their knowledge. The goal of this project is to create an engaging, user-friendly, and scalable quiz system that provides real-time feedback, score tracking, and an administrative panel for quiz management.
+CodeQuest - Python Mastery is an **interactive Python quiz application** designed to help users test and improve their knowledge.  
+The goal of this project is to create an engaging, user-friendly, and scalable quiz system that provides:  
+✅ **Real-time feedback**  
+✅ **Score tracking**  
+✅ **Administrative panel for quiz management**  
 
 ### **Team Members**
 - Rogelio  
@@ -18,7 +21,7 @@ CodeQuest - Python Mastery is an **interactive Python quiz application** designe
 - Emmanuel  
 
 ### **Milestone 1.0 Goals**  
-The first milestone focuses on developing a **Minimum Viable Product (MVP)** that includes the core features of the application. These are:  
+The first milestone focuses on developing a **Minimum Viable Product (MVP)** that includes:  
 - **User authentication:** Register and log in to save progress  
 - **Quiz functionality:** Display questions, allow user input, and validate responses  
 - **Score tracking:** Store and display quiz results  
@@ -32,17 +35,16 @@ The first milestone focuses on developing a **Minimum Viable Product (MVP)** tha
 ### **Implemented Features**
 Each feature will be **demonstrated live**, showing how the **code is structured and how it fulfills user stories**.
 
-| **Feature** | **Functionality** | **Code Implementation** | **User Story** |
-|------------|----------------|------------------|--------------|
+| **Feature**            | **Functionality**                              | **Code Implementation**           | **User Story** |
+|------------------------|--------------------------------|--------------------------------|--------------|
 | **User Authentication** | Users can register and log in | `app.py (login(), register())` | "As a user, I want to register and log in to save my progress." |
-| **Quiz Functionality** | Users can start a quiz and answer questions | `app.py (quiz logic)`, `templates/quiz.html` | "As a user, I want to answer quiz questions and get feedback." |
-| **Score Tracking** | Users receive a final score at the end of the quiz | `app.py (score tracking)`, `templates/result.html` | "As a user, I want to see my final score at the end of the quiz." |
-| **UI Improvements** | The interface uses color-coded feedback for correct/incorrect answers | `static/style.css` | "As a user, I want an intuitive and engaging interface." |
+| **Quiz Functionality**  | Users can start a quiz and answer questions | `app.py (quiz logic)`, `templates/quiz.html` | "As a user, I want to answer quiz questions and get feedback." |
+| **Score Tracking**      | Users receive a final score at the end of the quiz | `app.py (score tracking)`, `templates/result.html` | "As a user, I want to see my final score at the end of the quiz." |
+| **UI Improvements**     | The interface uses color-coded feedback for correct/incorrect answers | `static/style.css` | "As a user, I want an intuitive and engaging interface." |
 
 ---
 
 ### **Code Walkthrough**
-We will **explain how the code works** by reviewing key components:
 - **Flask Application (`app.py`)** - Handles user authentication, quiz logic, and session management  
 - **Database & Schema (`database.db`, `schema.sql`)** - Stores users, questions, and results  
 - **Frontend (`templates/`, `static/`)** - UI rendering using Jinja templates and CSS  
@@ -52,26 +54,27 @@ We will **explain how the code works** by reviewing key components:
 ## **Agile Methods Documentation**  
 
 ### **GitHub Repository & Agile Practices**
-- The **GitHub repository** shows a structured **commit history**, proving **continuous integration** and team collaboration.  
 - **Sprint Planning & Meetings**:
   - **Part B documentation** outlines sprint goals.
   - **Meeting notes** are stored in `meeting_notes/`.
-  - **Burndown chart** tracks progress and team velocity.  
+  - **Burndown chart** tracks progress and team velocity.
+- **Commit History**:
+  - Frequent commits, following a feature-branch workflow.
+  - Code reviews and pull requests ensure high quality.
 
-### **Testing & Quality Assurance**
-We conducted **manual testing** and **automated unit tests** to ensure quality.  
+---
 
-#### **Manual Testing**
+## **Testing & Quality Assurance**  
+
+### **Manual Testing**
 - **User Login**: Verified authentication flow  
 - **Quiz Flow**: Ensured questions load, accept input, and validate responses  
 - **Score Display**: Checked if the final score is calculated correctly  
 
-#### **Unit Testing (`test/test_quiz.py`)**
-Python
+### **Unit Testing (`test/test_quiz.py`)**
+python
 def test_quiz_logic():
     assert evaluate_answer("correct_answer") == True
-
----
 
 ---
 
@@ -97,6 +100,10 @@ Following the completion of **Iteration 1**, which established the **core quiz f
 | **Finalize GitHub documentation & README updates** | 5 hours | ✅ Completed |
 
 📌 **Total Iteration 2 Workload:** **40 hours**  
+
+## **Lessons Learned from Iteration 1 & 2**  
+🔹 **UI implementation took longer than expected**, so we adjusted sprint priorities.  
+🔹 **Agile methods helped us quickly adapt** to scope changes and team feedback. 
 
 ---
 
@@ -148,17 +155,25 @@ With **Iteration 2** completed, we are transitioning towards **Milestone 2.0**, 
 
 ![Burndownchart 20250307](https://github.com/user-attachments/assets/490d8dd4-4440-4c6b-95c1-389da45880a6)
 
+## **Burndown Chart & Velocity Analysis**  
+
+### **Burndown Chart Analysis**
+📉 **The team maintained a steady burndown rate**, aligning closely with planned estimates.  
+⚡ **The biggest gap occurred in Iteration 1 (UI delays), but we caught up by Iteration 2.**  
+🏆 **Overall, the project stayed on track** for Milestone 1.0 completion by March 12.
+
 ---
 
-# **Upcoming Features & Next Steps**  
-
-## **What Remains for Milestone 2.0?**
-The next milestone will **enhance functionality, scalability, and usability** to make CodeQuest a **fully operational and refined quiz system**.
+## **Beyond Iteration 2: Preparing for Milestone 2.0**
+### **What’s Next?**
+- **Transition from MVP to full-featured product**: Expanding user interactivity.  
+- **Biggest challenge:** Secure admin role management & database scalability.  
+- **New priorities:** Adding a leaderboard & improving authentication security.  
 
 ### **Upcoming Features**
 - **Admin Panel**: Allow management of quiz questions and user accounts  
 - **Leaderboard**: Display top scores and rankings  
-- **Expanded Question Categories**: Include Python, SQL, Data Science, and more  
+- **Expanded Question Categories**: Python, SQL, Data Science, and more  
 - **UI Enhancements**: Improved layout, animations, and mobile responsiveness  
 
 ---
@@ -175,5 +190,8 @@ The next milestone will **enhance functionality, scalability, and usability** to
 
 ---
 
-
+## **Final Thoughts**
+🚀 The project successfully delivered a working MVP in **Milestone 1.0**.  
+🚀 **Milestone 2.0** will focus on **scalability, enhanced functionality, and a better user experience**.  
+🚀 Agile methodologies, testing strategies, and continuous feedback have been crucial to our success.  
 
