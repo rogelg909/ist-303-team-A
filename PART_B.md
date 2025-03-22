@@ -152,7 +152,7 @@ Our team meets **twice a week** to discuss progress, task completion, and next s
 ## **📝 Meeting Logs**
 | **Date**  | **Attendees**  | **Key Discussions**  |
 |----------|--------------|------------------|
-| **Feb 23, 2025** | All Members except Paniz | Finalized Part B timeline and work distribution |
+| **Feb 23, 2025** | Rogelio, Hla Win Tun, Emmanuel | Finalized Part B timeline and work distribution |
 | **Feb 24, 2025** | Rogelio, Hla Win Tun, Paniz | Update on Register & Login Page, Next -> Dashboard |
 | **Mar 2, 2025** | All Members | Reviewed implementation progress, UI issues |
 | **Mar 4, 2025** | All Members | Internal testing and debugging |
