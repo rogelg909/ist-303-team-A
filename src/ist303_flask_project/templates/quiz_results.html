@@ -1,26 +1,83 @@
 {% extends 'base.html' %}
 {% block content %}
-<div class="container mt-5 text-center">
-    <h2>🎉 Quiz Completed!</h2>
-    <p>Your final score: <strong>{{ score }} / 10</strong></p>
-    
-    <div class="mt-4">
-        <a href="{{ url_for('start_quiz', category=category) }}" class="btn btn-primary">Retry Quiz</a>
-        <a href="{{ url_for('index') }}" class="btn btn-secondary">Go to Dashboard</a>
-    </div>
 
-    <div class="mt-4">
-        <p>Share your result with friends!</p>
-        <button class="btn btn-success" onclick="shareResult()">📤 Share</button>
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="card shadow-lg p-4 text-center" style="max-width: 600px; border-radius: 12px;">
+        
+        <!-- Header -->
+        <h2 class="mb-3">🎉 Quiz Completed!</h2>
+        <p class="lead">Your final score:</p>
+        
+        <!-- Score Display -->
+        <h1 class="display-4">
+            <span class="badge {% if score >= 7 %} bg-success {% elif score >= 5 %} bg-warning {% else %} bg-danger {% endif %}">
+                {{ score }} / 10
+            </span>
+        </h1>
+
+        <!-- Score Visualization -->
+        <div class="d-flex justify-content-center mt-4">
+            <canvas id="quizScoreChart" style="max-width: 300px; max-height: 300px;"></canvas>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="mt-4 d-flex flex-column gap-3">
+            <a href="{{ url_for('start_quiz', category=category) }}" class="btn btn-primary btn-lg w-100">
+                🔄 Retry Quiz
+            </a>
+            <a href="{{ url_for('index') }}" class="btn btn-secondary btn-lg w-100">
+                🏠 Go to Dashboard
+            </a>
+        </div>
+
+        <!-- Share Button -->
+        <div class="mt-4">
+            <p>Share your result with friends!</p>
+            <button class="btn btn-success btn-lg" onclick="shareResult()" id="shareBtn">
+                📤 Share
+            </button>
+            <span id="shareTooltip" class="text-muted" style="display: none;">Copied to clipboard!</span>
+        </div>
     </div>
 </div>
 
+<!-- Include Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
-function shareResult() {
-    const text = "I just completed the {{ category }} quiz on IST303 Team A Quiz and scored {{ score }} out of 10! 🎉";
-    navigator.clipboard.writeText(text);
-    alert("Quiz result copied to clipboard! Share it with friends.");
-}
+    // Score Chart
+    const ctx = document.getElementById('quizScoreChart').getContext('2d');
+    const quizScoreChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: ['Correct Answers', 'Incorrect Answers'],
+            datasets: [{
+                data: [{{ score }}, {{ 10 - score }}],
+                backgroundColor: ['#28a745', '#dc3545'], 
+                hoverOffset: 5
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'bottom'
+                }
+            }
+        }
+    });
+
+    // Share Result Function with Tooltip
+    function shareResult() {
+        const text = `I just completed the {{ category }} quiz on IST303 Team A Quiz and scored {{ score }} out of 10! 🎉`;
+        navigator.clipboard.writeText(text);
+        document.getElementById("shareTooltip").style.display = "inline";
+        setTimeout(() => {
+            document.getElementById("shareTooltip").style.display = "none";
+        }, 2000);
+    }
 </script>
+
 {% endblock %}
+
 

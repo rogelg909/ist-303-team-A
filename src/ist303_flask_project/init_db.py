@@ -1,10 +1,14 @@
 import sqlite3
+import os
 
-def init_db():
-    conn = sqlite3.connect('database.db')
+def init_db(db_path='database.db'):
+    conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
-    with open('schema.sql', 'r') as f:
+    # Fix: Get absolute path to schema.sql
+    schema_path = os.path.join(os.path.dirname(__file__), 'schema.sql')
+
+    with open(schema_path, 'r') as f:
         cursor.executescript(f.read())
 
     conn.commit()
@@ -13,4 +17,6 @@ def init_db():
 
 if __name__ == "__main__":
     init_db()
+
+
 

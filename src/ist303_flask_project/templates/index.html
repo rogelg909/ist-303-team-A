@@ -1,15 +1,25 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<div class="container mt-5 d-flex justify-content-center">
-    <div class="card shadow-lg p-4 text-center" style="max-width: 500px;">
-        <h2 class="mb-3">Welcome to IST303 Team A Quiz!</h2>
+<div class="container mt-5 text-center">
+    <div class="card shadow-lg p-4" style="max-width: 700px; margin: auto; border-radius: 12px;">
+        <h2 class="mb-3">Welcome to <span style="color: #007bff;">IST303 Team A Quiz!</span></h2>
         <p>You are logged in as <strong>{{ user.username }}</strong>.</p>
 
-        {% if last_score %}
-            <p>Your last quiz score: <strong>{{ last_score['score'] }}</strong> (Category: {{ last_score['category'] }})</p>
+        {% if last_score and last_score['score'] != "No score yet" %}
+            <p>Your last quiz score: 
+                <span class="badge bg-primary" style="font-size: 1.2rem;">
+                    {{ last_score['score'] }}/10
+                </span> 
+                (Category: {{ last_score['category'] }})
+            </p>
+
+            <!-- Score Chart -->
+            <div class="d-flex justify-content-center">
+                <canvas id="quizScoreChart" style="max-width: 300px;"></canvas>
+            </div>
         {% else %}
-            <p>You haven't taken any quizzes yet.</p>
+            <p class="mt-3">You haven't taken any quizzes yet. <strong>Start one now!</strong></p>
         {% endif %}
 
         <h3 class="mt-4">Select a Quiz Category:</h3>
@@ -21,7 +31,63 @@
     </div>
 </div>
 
+<!-- 🏆 Leaderboard Section -->
+<div class="container mt-5 leaderboard-container">
+    <h3 class="text-center mb-3"><i class="fas fa-trophy text-warning"></i> Quiz Leaderboard</h3>
+    <div class="table-responsive">
+        <table class="table leaderboard-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Username</th>
+                    <th>Highest Score</th>
+                    <th>Category</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for entry in leaderboard %}
+                <tr class="{% if entry.rank == 1 %}gold-rank
+                           {% elif entry.rank == 2 %}silver-rank
+                           {% elif entry.rank == 3 %}bronze-rank{% endif %}">
+                    <td>{{ entry.rank }}</td>
+                    <td>{{ entry.username }}</td>
+                    <td>{{ entry.score }}/10</td>
+                    <td>{{ entry.category }}</td>
+                    <td>{{ entry.date }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Include Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    {% if last_score and last_score['score'] != "No score yet" %}
+    const ctx = document.getElementById('quizScoreChart').getContext('2d');
+    const quizScoreChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: ['Correct Answers', 'Incorrect Answers'],
+            datasets: [{
+                data: [{{ last_score['score'] }}, {{ 10 - last_score['score'] }}],
+                backgroundColor: ['#28a745', '#dc3545'],
+                hoverOffset: 5
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'bottom'
+                }
+            }
+        }
+    });
+    {% endif %}
+</script>
+
 {% endblock %}
-
-
-

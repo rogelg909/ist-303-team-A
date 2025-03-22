@@ -1,12 +1,29 @@
 {% extends 'base.html' %}
 {% block content %}
-<div class="container mt-5 text-center">
-    <h2>📖 {{ category|capitalize }} Quiz</h2>
-    <p>Test your Python skills with 10 random questions from the {{ category }} category.</p>
-    
-    <div class="mt-4">
-        <a href="{{ url_for('quiz_question', category=category) }}" class="btn btn-primary">Start Quiz</a>
-        <a href="{{ url_for('index') }}" class="btn btn-secondary">Go Back</a>
+
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="card shadow-lg p-4 text-center" style="max-width: 500px; border-radius: 12px;">
+        
+        <!-- Quiz Header -->
+        <h2 class="mb-3">📖 <span class="text-primary">{{ category|capitalize }} Quiz</span></h2>
+        <p class="lead text-muted">Test your Python skills with <strong>10 random questions</strong> from the <strong>{{ category }}</strong> category.</p>
+
+        <!-- Quiz Image -->
+        <div class="mb-3">
+            <img src="{{ url_for('static', filename='quiz_start.png') }}" alt="Quiz Start Image" style="max-width: 100%; border-radius: 8px;">
+        </div>
+
+        <!-- Buttons -->
+        <div class="mt-4 d-flex flex-column gap-3">
+            <a href="{{ url_for('quiz_question', category=category) }}" class="btn btn-primary btn-lg w-100">
+                🚀 Start Quiz
+            </a>
+            <a href="{{ url_for('index') }}" class="btn btn-secondary btn-lg w-100">
+                ⬅️ Go Back
+            </a>
+        </div>
     </div>
 </div>
+
 {% endblock %}
+
