@@ -43,6 +43,7 @@
             border-radius: 12px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
             margin-top: 20px;
+            transition: all 0.3s ease;
         }
 
         .leaderboard-table {
@@ -80,6 +81,38 @@
             font-weight: bold;
         }
 
+        /* 📦 Dark mode for leaderboard */
+        .dark-mode .leaderboard-container {
+            background-color: #1e1e1e;
+            color: #f1f1f1;
+            border: 1px solid #333;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+        }
+
+        .dark-mode .leaderboard-table thead {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .dark-mode .leaderboard-table tbody tr:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        .dark-mode .gold-rank td {
+            background: linear-gradient(90deg, #8f7f00, #a47e00);
+            color: white;
+        }
+
+        .dark-mode .silver-rank td {
+            background: linear-gradient(90deg, #888, #aaa);
+            color: white;
+        }
+
+        .dark-mode .bronze-rank td {
+            background: linear-gradient(90deg, #8b4513, #a0522d);
+            color: white;
+        }
+
         @media (max-width: 768px) {
             .leaderboard-container {
                 padding: 15px;
@@ -93,7 +126,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="{{ url_for('index') }}">IST303 Quiz</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -102,13 +136,11 @@
                         <li class="nav-item">
                             <span class="nav-link text-light fw-bold">👋 Hello, {{ current_user.username }}</span>
                         </li>
-
                         {% if current_user.role == 'teacher' %}
-                        <li class="nav-item">
-                            <a class="nav-link text-info fw-bold" href="{{ url_for('admin_panel') }}">Admin Panel</a>
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-info fw-bold" href="{{ url_for('admin_panel') }}">Admin Panel</a>
+                            </li>
                         {% endif %}
-
                         <li class="nav-item">
                             <a class="nav-link text-danger fw-bold" href="{{ url_for('logout') }}">Logout</a>
                         </li>
@@ -117,7 +149,7 @@
                             <a class="nav-link text-light" href="{{ url_for('login') }}">Login</a>
                         </li>
                     {% endif %}
-
+                    <!-- 🌙 Dark Mode Toggle -->
                     <li class="nav-item">
                         <button class="btn btn-outline-light ms-3" onclick="toggleDarkMode()">
                             <i class="fas fa-moon"></i>
@@ -158,6 +190,7 @@
             localStorage.setItem("theme", mode);
         }
 
+        // Load dark mode preference
         window.onload = function () {
             if (localStorage.getItem("theme") === "dark") {
                 document.body.classList.add("dark-mode");
