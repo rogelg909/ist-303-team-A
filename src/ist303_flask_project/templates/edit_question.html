@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">✏️ Edit Quiz Question</h2>
+
+    <form method="POST" action="{{ url_for('edit_question', question_id=question['id']) }}">
+        <div class="mb-3">
+            <label for="category" class="form-label">Category</label>
+            <select name="category" class="form-control" required>
+                <option value="easy" {% if question.category == 'easy' %}selected{% endif %}>Easy</option>
+                <option value="medium" {% if question.category == 'medium' %}selected{% endif %}>Medium</option>
+                <option value="hard" {% if question.category == 'hard' %}selected{% endif %}>Hard</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="question" class="form-label">Question</label>
+            <textarea name="question" class="form-control" rows="3" required>{{ question.question }}</textarea>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Options</label>
+            <input type="text" name="option_a" class="form-control mb-2" value="{{ question.option_a }}" placeholder="Option A" required>
+            <input type="text" name="option_b" class="form-control mb-2" value="{{ question.option_b }}" placeholder="Option B" required>
+            <input type="text" name="option_c" class="form-control mb-2" value="{{ question.option_c }}" placeholder="Option C" required>
+            <input type="text" name="option_d" class="form-control mb-2" value="{{ question.option_d }}" placeholder="Option D" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="correct_answer" class="form-label">Correct Answer (A, B, C, or D)</label>
+            <input type="text" name="correct_answer" class="form-control" maxlength="1" pattern="[ABCDabcd]" value="{{ question.correct_answer }}" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="explanation" class="form-label">Explanation</label>
+            <textarea name="explanation" class="form-control" rows="2" required>{{ question.explanation }}</textarea>
+        </div>
+
+        <button type="submit" class="btn btn-info w-100">💾 Update Question</button>
+        <a href="{{ url_for('admin_panel') }}" class="btn btn-secondary mt-2 w-100">⬅️ Back to Admin Panel</a>
+    </form>
+</div>
+{% endblock %}

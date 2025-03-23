@@ -15,9 +15,10 @@ login_manager.login_view = 'login'
 
 # User class
 class User(UserMixin):
-    def __init__(self, id, username):
+    def __init__(self, id, username, role):
         self.id = id
         self.username = username
+        self.role = role  # 👈 Add role attribute
 
 # Database connection helper function
 def get_db_connection():
@@ -32,7 +33,7 @@ def load_user(user_id):
     user = conn.execute('SELECT * FROM users WHERE id = ?', (user_id,)).fetchone()
     conn.close()
     if user:
-        return User(user['id'], user['username'])
+        return User(user['id'], user['username'], user['role'])  # 👈 Include role
     return None
 
 @app.route('/')
@@ -66,39 +67,57 @@ def register():
     if request.method == 'POST':
         username = request.form.get('username', '').strip()
         password = request.form.get('password', '').strip()
+        teacher_code = request.form.get('teacher_code', '').strip()
 
+        # ✅ Validate fields
         if not username or not password:
             flash('Username and password are required.', 'warning')
             return redirect(url_for('register'))
 
+        # 🎓 Assign role
+        TEACHER_SECRET_CODE = 'supersecret123'  # This can be moved to config in production
+        role = 'teacher' if teacher_code == TEACHER_SECRET_CODE else 'student'
+
+        # 🔐 Hash password
         hashed_password = generate_password_hash(password)
+
         conn = get_db_connection()
-        existing_user = conn.execute('SELECT * FROM users WHERE username = ?', (username,)).fetchone()
+        existing_user = conn.execute(
+            'SELECT * FROM users WHERE username = ?', (username,)
+        ).fetchone()
+
         if existing_user:
-            flash('Username already exists.', 'danger')
+            flash('Username already exists. Please choose another.', 'danger')
             conn.close()
             return redirect(url_for('register'))
 
-        conn.execute('INSERT INTO users (username, password) VALUES (?, ?)', (username, hashed_password))
+        # ✅ Insert user
+        conn.execute(
+            'INSERT INTO users (username, password, role) VALUES (?, ?, ?)',
+            (username, hashed_password, role)
+        )
         conn.commit()
         conn.close()
 
-        flash('Registration successful! You can now log in.', 'success')
+        flash(f'Registration successful! You registered as a {role}. You can now log in.', 'success')
         return redirect(url_for('login'))
 
     return render_template('register.html')
+
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
+
         conn = get_db_connection()
         user = conn.execute('SELECT * FROM users WHERE username = ?', (username,)).fetchone()
         conn.close()
 
         if user and check_password_hash(user['password'], password):
-            login_user(User(user['id'], user['username']))
+            # Pass role to the User class
+            login_user(User(user['id'], user['username'], user['role']))
             return redirect(url_for('index'))
         else:
             flash('Invalid credentials.', 'danger')
@@ -236,6 +255,92 @@ def quiz_result(category):
 def share_results(category):
     score = session.get('score', 0)
     return render_template('quiz_share.html', user=current_user, score=score, category=category)
+
+# ----------------------------------------------
+# 🔐 Admin Panel: Only accessible by teachers
+# ----------------------------------------------
+@app.route('/admin')
+@login_required
+def admin_panel():
+    if current_user.role != 'teacher':
+        flash("Access denied: Only teachers can access this page.", "danger")
+        return redirect(url_for('index'))
+
+    conn = get_db_connection()
+    questions = conn.execute("SELECT * FROM quiz_questions").fetchall()
+    conn.close()
+
+    return render_template("admin_panel.html", questions=questions)
+
+
+@app.route('/admin/add', methods=['GET', 'POST'])
+@login_required
+def add_question():
+    if current_user.role != 'teacher':
+        flash("Access denied", "danger")
+        return redirect(url_for('index'))
+
+    if request.method == 'POST':
+        data = {k: request.form[k].strip() for k in request.form}
+        conn = get_db_connection()
+        conn.execute('''
+            INSERT INTO quiz_questions (category, question, option_a, option_b, option_c, option_d, correct_answer, explanation)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        ''', (data['category'], data['question'], data['option_a'], data['option_b'],
+              data['option_c'], data['option_d'], data['correct_answer'], data['explanation']))
+        conn.commit()
+        conn.close()
+        flash("Question added successfully!", "success")
+        return redirect(url_for('admin_panel'))
+
+    return render_template('add_question.html')
+
+
+@app.route('/admin/edit/<int:question_id>', methods=['GET', 'POST'])
+@login_required
+def edit_question(question_id):
+    if current_user.role != 'teacher':
+        flash("Access denied", "danger")
+        return redirect(url_for('index'))
+
+    conn = get_db_connection()
+    question = conn.execute("SELECT * FROM quiz_questions WHERE id = ?", (question_id,)).fetchone()
+
+    if not question:
+        flash("Question not found.", "warning")
+        conn.close()
+        return redirect(url_for('admin_panel'))
+
+    if request.method == 'POST':
+        data = {k: request.form[k].strip() for k in request.form}
+        conn.execute('''
+            UPDATE quiz_questions SET category=?, question=?, option_a=?, option_b=?, option_c=?, option_d=?, correct_answer=?, explanation=?
+            WHERE id = ?
+        ''', (data['category'], data['question'], data['option_a'], data['option_b'],
+              data['option_c'], data['option_d'], data['correct_answer'], data['explanation'], question_id))
+        conn.commit()
+        conn.close()
+        flash("Question updated!", "info")
+        return redirect(url_for('admin_panel'))
+
+    conn.close()
+    return render_template('edit_question.html', question=question)
+
+
+@app.route('/admin/delete/<int:question_id>')
+@login_required
+def delete_question(question_id):
+    if current_user.role != 'teacher':
+        flash("Access denied", "danger")
+        return redirect(url_for('index'))
+
+    conn = get_db_connection()
+    conn.execute("DELETE FROM quiz_questions WHERE id = ?", (question_id,))
+    conn.commit()
+    conn.close()
+
+    flash("Question deleted.", "danger")
+    return redirect(url_for('admin_panel'))
 
 if __name__ == '__main__':
     app.run(debug=True)

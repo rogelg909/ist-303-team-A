@@ -2,7 +2,8 @@
 CREATE TABLE IF NOT EXISTS users (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     username TEXT NOT NULL UNIQUE,
-    password TEXT NOT NULL
+    password TEXT NOT NULL,
+    role TEXT NOT NULL DEFAULT 'student'  -- 👈 NEW: added role column
 );
 
 -- Posts table (if needed for announcements or blog posts)
