@@ -42,7 +42,8 @@ Milestone 2.0 focused on the following user stories:
 We followed Agile using 2-week sprints. Daily communication and issue tracking were maintained in GitHub Projects.
 
 📉 Final Burndown Chart:  
-![Burndown Chart](PartD/burndown_chart.png)
+
+![Burndownchart 20250326](https://github.com/user-attachments/assets/671b2f2c-028f-4466-8b59-600ce285da4d)
 
 ---
 
