@@ -1,7 +1,7 @@
 
 # 📘 Part D: Milestone 2.0 Final Report
 
-## 🎤 1. Milestone 2.0 Team Presentation (/25 points)
+## 🎤 1. Milestone 2.0 Team Presentation 
 
 Each team member contributed to a clear and structured class presentation demonstrating our completed features, architecture, and responsibilities. Live demo segments included:
 
@@ -10,9 +10,9 @@ Each team member contributed to a clear and structured class presentation demons
 
 ---
 
-## 💻 2. Working Code & Milestone Scope (/70 points)
+## 💻 2. Working Code & Milestone Scope 
 
-### ✅ a. Working Code Demo (/15 points)
+### ✅ a. Working Code Demo 
 
 The app demonstrates:
 
@@ -25,7 +25,7 @@ Code is modular, organized into Flask routes, templates, and utility functions.
 
 ---
 
-### 📌 b. Explanation of Milestone 2.0 Functionality (/13 points)
+### 📌 b. Explanation of Milestone 2.0 Functionality 
 
 Milestone 2.0 focused on the following user stories:
 
@@ -37,7 +37,7 @@ Milestone 2.0 focused on the following user stories:
 
 ---
 
-### 🔁 c. Agile Methodology & Burndown Chart (/15 points)
+### 🔁 c. Agile Methodology & Burndown Chart 
 
 We followed Agile using 2-week sprints. Daily communication and issue tracking were maintained in GitHub Projects.
 
@@ -46,7 +46,7 @@ We followed Agile using 2-week sprints. Daily communication and issue tracking w
 
 ---
 
-### 🧪 d. Testing Approach and Coverage (/12 points)
+### 🧪 d. Testing Approach and Coverage
 
 - **Manual testing**: User registration, quiz progression, score submission, and admin access.
 - **Automated testing**: Using `pytest` with ~80% test coverage.
@@ -59,7 +59,7 @@ pytest --cov=.
 
 ---
 
-### 🧠 e. Key Successes, Failures & Lessons Learned (/15 points)
+### 🧠 e. Key Successes, Failures & Lessons Learned 
 
 **Successes:**
 - Smooth UI/UX using Bootstrap and Chart.js.
@@ -77,7 +77,7 @@ pytest --cov=.
 
 ---
 
-## 📂 3. GitHub Upload of Presentation Materials (/5 points)
+## 📂 3. GitHub Upload of Presentation Materials 
 
 All presentation materials are available in the repo under:
 
@@ -92,9 +92,9 @@ All presentation materials are available in the repo under:
 
 ---
 
-## 📦 4. Final Code Repository Submission (/60 points)
+## 📦 4. Final Code Repository Submission 
 
-### a. How to Run (/5 pts)
+### a. How to Run 
 ```bash
 # Create virtual environment
 python -m venv venv
@@ -112,7 +112,7 @@ python app.py
 
 ---
 
-### b. How to Test (/5 pts)
+### b. How to Test 
 
 ```bash
 # Run all tests
@@ -124,7 +124,7 @@ pytest --cov=. --cov-report=term-missing
 
 ---
 
-### c. Top 3 Learnings (/10 pts)
+### c. Top 3 Learnings 
 
 1. Design-first mindset leads to faster delivery.
 2. Reusability and DRY principles improve maintainability.
@@ -132,7 +132,7 @@ pytest --cov=. --cov-report=term-missing
 
 ---
 
-### d. Commit Activity & Consistency (/10 pts)
+### d. Commit Activity & Consistency 
 
 - Multiple commits per week tracked via GitHub.
 - Clean commit messages.
@@ -140,7 +140,7 @@ pytest --cov=. --cov-report=term-missing
 
 ---
 
-### e. Individual Contributions (/10 pts)
+### e. Individual Contributions 
 
 - Every team member has committed.
 - Workload distributed fairly.
@@ -148,7 +148,7 @@ pytest --cov=. --cov-report=term-missing
 
 ---
 
-### f. Organization & Navigation (/5 pts)
+### f. Organization & Navigation 
 
 - Clear folder structure:
     - `templates/`
@@ -159,7 +159,7 @@ pytest --cov=. --cov-report=term-missing
 
 ---
 
-### g. Repository Standards (/5 pts)
+### g. Repository Standards 
 
 - `.gitignore` includes `/venv/`, `__pycache__/`, etc.
 - `requirements.txt` lists all dependencies.
@@ -167,14 +167,10 @@ pytest --cov=. --cov-report=term-missing
 
 ---
 
-### h. GitHub Feature Usage (/10 pts)
+### h. GitHub Feature Usage 
 
 - Used GitHub Issues for task breakdown.
 - GitHub Projects board for sprint tracking.
 - GitHub Actions to automate testing pipeline.
-
----
-
-📅 Final commit before due date: _2025-03-26_ ✅
 
 ---
