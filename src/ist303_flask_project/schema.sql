@@ -17,6 +17,7 @@ CREATE TABLE IF NOT EXISTS posts (
 CREATE TABLE IF NOT EXISTS quiz_questions (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     category TEXT NOT NULL,    -- easy, medium, or hard
+    topic TEXT,                -- 👈 NEW: optional topic tag (e.g., Python, Loops, Functions)
     question TEXT NOT NULL,
     option_a TEXT NOT NULL,
     option_b TEXT NOT NULL,

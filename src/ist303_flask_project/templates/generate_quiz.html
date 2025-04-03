@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">🧠 Generate Custom Quiz</h2>
+
+    <form method="GET" action="{{ url_for('preview_quiz') }}">
+        <div class="row">
+            <!-- Difficulty -->
+            <div class="col-md-4 mb-3">
+                <label for="category" class="form-label">Difficulty</label>
+                <select name="category" id="category" class="form-control">
+                    <option value="">Any</option>
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+
+            <!-- Topic Dropdown -->
+            <div class="col-md-4 mb-3">
+                <label for="topic" class="form-label">Topic</label>
+                <select name="topic" id="topic" class="form-control">
+                    <option value="">Any</option>
+                    {% for t in topics %}
+                        <option value="{{ t }}">{{ t }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <!-- Number of Questions -->
+            <div class="col-md-4 mb-3">
+                <label for="limit" class="form-label">Number of Questions</label>
+                <input type="number" name="limit" id="limit" class="form-control" placeholder="e.g., 10 or 20">
+            </div>
+        </div>
+
+        <!-- Show Answers Toggle -->
+        <div class="form-check mb-4">
+            <input class="form-check-input" type="checkbox" name="show_answers" id="show_answers" checked>
+            <label class="form-check-label" for="show_answers">
+                ✅ Show Correct Answers & Explanations
+            </label>
+        </div>
+
+        <!-- Buttons -->
+        <div class="text-center">
+            <button type="submit" class="btn btn-warning px-4">🎯 Generate Quiz</button>
+            <a href="{{ url_for('admin_panel') }}" class="btn btn-secondary ms-2">⬅️ Back to Admin Panel</a>
+        </div>
+    </form>
+</div>
+{% endblock %}

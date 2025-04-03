@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">🧪 Preview Generated Quiz</h2>
+
+    {% if category or topic %}
+    <p class="text-muted text-center">
+        {% if category %}📘 Difficulty: <strong>{{ category.capitalize() }}</strong>{% endif %}
+        {% if topic %}{% if category %} | {% endif %}🏷️ Topic: <strong>{{ topic }}</strong>{% endif %}
+    </p>
+    {% endif %}
+
+    {% if questions %}
+    <div class="card shadow-sm">
+        <div class="card-body">
+            {% for q in questions %}
+            <div class="mb-4">
+                <h5>Q{{ loop.index }}: {{ q.question }}</h5>
+                <ul class="list-unstyled ms-3">
+                    <li>A. {{ q.option_a }}</li>
+                    <li>B. {{ q.option_b }}</li>
+                    <li>C. {{ q.option_c }}</li>
+                    <li>D. {{ q.option_d }}</li>
+                </ul>
+                {% if show_answers %}
+                <p class="text-success ms-3">
+                    ✅ Correct Answer: <strong>{{ q.correct_answer }}</strong>
+                    {% if q.explanation %} | 💡 {{ q.explanation }}{% endif %}
+                </p>
+                {% endif %}
+                <hr>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% else %}
+    <div class="alert alert-info text-center">
+        No questions found with the selected filters.
+    </div>
+    {% endif %}
+
+    <!-- ✅ Action Buttons -->
+    <div class="text-center mt-4 d-flex flex-column align-items-center">
+        <div class="btn-group mb-3">
+
+            <!-- Toggle Answer Visibility -->
+            {% if show_answers %}
+            <a href="{{ url_for('preview_quiz', category=category, topic=topic, limit=limit, show_answers=0) }}"
+               class="btn btn-outline-warning">🙈 Hide Answers</a>
+            {% else %}
+            <a href="{{ url_for('preview_quiz', category=category, topic=topic, limit=limit, show_answers=1) }}"
+               class="btn btn-success">✅ Show Answers</a>
+            {% endif %}
+
+            <!-- Export & Email -->
+            <a href="{{ url_for('export_quiz_pdf', category=category, topic=topic, show_answers=show_answers|int) }}"
+               class="btn btn-danger">📄 Export to PDF</a>
+            <a href="{{ url_for('send_quiz_email', category=category, topic=topic, show_answers=show_answers|int) }}"
+               class="btn btn-success">✉️ Email This Quiz</a>
+        </div>
+
+        <!-- Navigation -->
+        <div>
+            <a href="{{ url_for('generate_quiz') }}" class="btn btn-outline-primary me-2">🔁 Generate Another Quiz</a>
+            <a href="{{ url_for('admin_panel') }}" class="btn btn-secondary">⬅️ Back to Admin Panel</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

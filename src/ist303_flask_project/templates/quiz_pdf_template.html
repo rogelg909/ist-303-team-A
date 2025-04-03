@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: Arial, sans-serif; font-size: 12px; margin: 30px; }
+        h2 { text-align: center; margin-bottom: 10px; }
+        p.meta { text-align: center; font-size: 11px; color: #666; margin-bottom: 30px; }
+        .question { margin-bottom: 20px; }
+        .answer { margin-left: 15px; }
+        .explanation { font-size: 11px; margin-left: 15px; color: #333; }
+        hr { border: none; border-top: 1px dashed #ccc; margin: 15px 0; }
+    </style>
+</head>
+<body>
+    <h2>📝 Custom Quiz Export</h2>
+
+    <p class="meta">
+        Exported on: {{ now.strftime('%Y-%m-%d %H:%M') }}<br>
+        {% if category %}📘 Difficulty: <strong>{{ category.capitalize() }}</strong>{% endif %}
+        {% if topic %} {% if category %} | {% endif %}🏷️ Topic: <strong>{{ topic }}</strong>{% endif %}
+    </p>
+
+    {% for q in questions %}
+    <div class="question">
+        <strong>Q{{ loop.index }}:</strong> {{ q['question'] }}<br>
+        <div class="answer">A. {{ q['option_a'] }}</div>
+        <div class="answer">B. {{ q['option_b'] }}</div>
+        <div class="answer">C. {{ q['option_c'] }}</div>
+        <div class="answer">D. {{ q['option_d'] }}</div>
+
+        {% if show_answers %}
+        <div class="explanation">
+            ✅ Answer: <strong>{{ q['correct_answer'] }}</strong>
+            {% if q['explanation'] %} | 💡 {{ q['explanation'] }}{% endif %}
+        </div>
+        {% endif %}
+    </div>
+    <hr>
+    {% endfor %}
+</body>
+</html>
+

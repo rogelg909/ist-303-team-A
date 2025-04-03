@@ -1,15 +1,22 @@
 import sqlite3
 import os
 
+def column_exists(cursor, table, column):
+    cursor.execute(f"PRAGMA table_info({table})")
+    return any(col[1] == column for col in cursor.fetchall())
+
 def init_db(db_path='database.db'):
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
-    # Fix: Get absolute path to schema.sql
     schema_path = os.path.join(os.path.dirname(__file__), 'schema.sql')
-
     with open(schema_path, 'r') as f:
         cursor.executescript(f.read())
+
+    # Add 'topic' column if it doesn't exist
+    if not column_exists(cursor, "quiz_questions", "topic"):
+        cursor.execute("ALTER TABLE quiz_questions ADD COLUMN topic TEXT")
+        print("✅ Added 'topic' column to quiz_questions table.")
 
     # ✅ Insert sample questions if none exist
     cursor.execute("SELECT COUNT(*) FROM quiz_questions")
@@ -33,7 +40,8 @@ def init_db(db_path='database.db'):
 
     conn.commit()
     conn.close()
-    print("Database initialized successfully!")
+    print("✅ Database initialized successfully!")
 
 if __name__ == "__main__":
     init_db()
+

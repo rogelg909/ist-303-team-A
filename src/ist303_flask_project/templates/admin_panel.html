@@ -3,13 +3,38 @@
 <div class="container mt-5">
     <h2 class="mb-4 text-center">👨‍🏫 Admin Panel – Manage Quiz Questions</h2>
 
-    <a href="{{ url_for('add_question') }}" class="btn btn-success mb-3">➕ Add New Question</a>
+    <!-- 🔎 Filter Form -->
+    <form method="GET" action="{{ url_for('admin_panel') }}" class="row g-2 mb-4">
+        <div class="col-md-4">
+            <select name="category" class="form-select">
+                <option value="">🔁 All Categories</option>
+                <option value="easy" {% if filter_category == 'easy' %}selected{% endif %}>Easy</option>
+                <option value="medium" {% if filter_category == 'medium' %}selected{% endif %}>Medium</option>
+                <option value="hard" {% if filter_category == 'hard' %}selected{% endif %}>Hard</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <input type="text" name="topic" class="form-control" placeholder="Filter by Topic" value="{{ filter_topic }}">
+        </div>
+        <div class="col-md-4 d-flex gap-2">
+            <button type="submit" class="btn btn-primary w-100">🔍 Filter</button>
+            <a href="{{ url_for('admin_panel') }}" class="btn btn-secondary">Reset</a>
+        </div>
+    </form>
 
+    <!-- ✅ Action Buttons -->
+    <div class="d-flex justify-content-start mb-3 gap-2">
+        <a href="{{ url_for('generate_quiz') }}" class="btn btn-primary">🚀 Generate a Quiz</a>
+        <a href="{{ url_for('add_question') }}" class="btn btn-outline-success">📝 Add Question (Admin Only)</a>
+    </div>
+
+    <!-- 📋 Questions Table -->
     <table class="table table-bordered table-striped">
         <thead class="table-dark">
             <tr>
                 <th>ID</th>
                 <th>Category</th>
+                <th>Topic</th>
                 <th>Question</th>
                 <th>Correct Answer</th>
                 <th class="text-center">Actions</th>
@@ -19,7 +44,12 @@
             {% for q in questions %}
             <tr>
                 <td>{{ q.id }}</td>
-                <td>{{ q.category }}</td>
+                <td>
+                    <span class="badge bg-{% if q.category == 'easy' %}success{% elif q.category == 'medium' %}warning{% else %}danger{% endif %}">
+                        {{ q.category|capitalize }}
+                    </span>
+                </td>
+                <td>{{ q.topic or 'N/A' }}</td>
                 <td>{{ q.question[:50] }}...</td>
                 <td>{{ q.correct_answer }}</td>
                 <td class="text-center">
