@@ -34,87 +34,90 @@ Understanding our stakeholders ensures that **CodeQuest** meets user needs, supp
 
 ---
 
-## **🚀 Key Features**
-### **✔ Core Features**
-- **📖 Interactive Python Quiz**
-  - Users can answer Python quiz questions to test and improve their knowledge.
-  
-- **🎨 User-Friendly Web Interface**
-  - A clean and responsive web-based UI built with Flask & Bootstrap.
-  - Clear multiple-choice format for easy answer selection.
+## 🚀 Key Features
 
-- **📊 Score Tracking**
-  - Displays the final score at the end of the quiz for progress tracking.
+CodeQuest delivers an interactive, user-friendly Python quiz experience with dynamic admin control and performance tracking. Below are the final implemented features and planned enhancements.
 
-- **✅ Secure User Authentication**
-  - Login and registration system to track user progress.
+### ✅ Core Features (Implemented)
 
-- **⚠️ Robust Error Handling**
-  - Handles invalid inputs gracefully and provides retry prompts.
+- **🔐 Secure User Authentication**  
+  Supports login for both **students** and **teachers** using Flask-Login. Credentials are safely stored and managed.
 
-### **🎯 Additional Features (Planned Enhancements)**
-- ⏳ **Timer-Based Quiz Mode** – Limits response time per question.  
-- 💡 **Hints for Each Question** – Provides a hint to help users learn.  
-- 🔄 **Flashcard Mode** – Allows users to review questions passively.  
-- 🔊 **Sound Effects** – Plays correct/wrong answer sounds for engagement.  
-- 📊 **User Progress & Quiz History** – Saves past quiz results for review.  
-- 🏆 **Leaderboard** – Displays top players’ highest scores.  
-- ✍️ **Custom Quiz Creation** – Admins can create and manage quizzes dynamically.  
-- 🎯 **Adaptive Difficulty System** – Adjusts question difficulty based on performance.  
+- **📚 Admin Panel with CRUD Functionality**  
+  Admin users can **Create**, **Read**, **Update**, and **Delete** quiz questions via a dedicated dashboard.
+
+- **🧠 Interactive Python Quiz Engine**  
+  Students can take randomized multiple-choice quizzes across various topics and difficulties.
+
+- **📊 Score Tracking & Quiz Feedback**  
+  Users receive immediate feedback and a total score after submitting the quiz.
+
+- **🏆 Leaderboard**  
+  Displays top-performing users with highest scores to encourage friendly competition.
+
+- **🛠️ Custom Quiz Generator**  
+  Users can generate quizzes by selecting specific **topics**, **difficulty levels**, and number of questions.
+
+- **📄 Export Options**  
+  Users and admins can **export quizzes to PDF**, **send results via email**, and **toggle answer visibility**.
+
+- **⚙️ GitHub Actions Integration**  
+  CI/CD workflow automatically runs **Pytest test suites** on each push using `.github/workflows/actions.yml`.
+
+---
+
+ ### 🔭 Future Enhancements (Post-IST303 Module Roadmap)
+
+While not part of the current course implementation, the following ideas were considered for future development to expand CodeQuest's learning experience:
+
+- ⏱ **Timer-Based Mode** – Introduce time-limited questions for increased challenge.  
+- 🧠 **Hints Per Question** – Offer optional hints to reinforce learning before submission.  
+- 📊 **Progress Tracking Dashboard** – Let users view their quiz history and improvement trends.  
+- 🔁 **Flashcard Review Mode** – Provide a passive review experience with question flashcards.  
+- 🔊 **Sound Effects** – Add feedback sounds for correct/incorrect responses.  
+- 🧮 **Adaptive Difficulty System** – Dynamically adjust question difficulty based on performance.  
+- 🧩 **Gamification Features** – Incorporate badges, levels, or streaks to motivate consistent usage.  
+
+> 📌 These enhancements are beyond the scope of the current IST 303 course but represent valuable directions for future iterations of the app.
 
 ---
  
-## ⚙️ Technical Stack
+## 🛠 Tech Stack
 
-### **🖥 Programming Language:**
-- **Python 3.x** – Core language used for development.
-
-### **📚 Libraries & Frameworks:**
-- **Backend:**
-  - Flask – Web framework for building the quiz application.
-  - Flask-SQLAlchemy – ORM for database management.
-  - Flask-Login – Handles user authentication.
-  
-- **Frontend:**
-  - HTML, CSS, Bootstrap – For designing the UI.
-  - JavaScript – Enhancing interactivity (optional).
-
-- **Database:**
-  - SQLite (default) – Lightweight database for local development.
-  - PostgreSQL (planned) – For production deployment.
-
-### **🛠 Development Tools:**
-- **Code Editor:** Visual Studio Code (or preferred Python IDE).
-- **Version Control:** Git & GitHub for repository management.
-- **Virtual Environment:** `venv` (to manage dependencies).
-- **Deployment (Future Consideration):**  
-  - Gunicorn (for production WSGI server)  
-  - Render / Heroku / AWS (for hosting)  
+| Layer          | Tools Used                             |
+|----------------|-----------------------------------------|
+| **Frontend**   | HTML, CSS, Bootstrap                    |
+| **Backend**    | Flask, Python 3.11                      |
+| **Database**   | SQLite (development), schema.sql        |
+| **Testing**    | Pytest, Flask Test Client               |
+| **CI/CD**      | GitHub Actions (.yml configured)        |
+| **Deployment** | Localhost (Render/Heroku planned)       |
 
 ---
 
-## 📜 User Stories & Estimated Completion Times
+## 📜 Updated User Stories & Estimated Completion Times
 
 | **User Story**  | **Priority** | **Description** | **Updated Est. Time** |
-| --------------  | ------------ | --------------- | ------------------ |
-| **Basic Quiz Functionality**  | High | As a user, I want to answer Python quiz questions so that I can test my knowledge and improve my skills. | **1 week** |
-| **User-Friendly Interface**  | High | As a user, I want the quiz to display clear and formatted questions with multiple choices so that I can easily select my answer. | **1 week** |
-| **Score Tracking** | High | As a user, I want to see my score at the end of the quiz so that I can track my performance. | **0.5 week** |
-| **Error Handling & Input Validation** | High | As a user, I want the quiz to handle incorrect inputs gracefully so that I can retry without breaking the experience. | **1 week** |
-| **Admin Panel for Quiz Management** | High | As an admin, I want to create, update, and delete quiz questions so that I can manage quiz content dynamically. | **1.5 weeks** |
-| **Randomized Questions per Attempt** | Medium | As a user, I want different quiz questions each time I play so that I can get a fresh learning experience. | **1 week** |
-| **⏳ Timer-Based Quiz Mode** | Medium | As a user, I want a time limit for each question so that I can challenge my speed and accuracy. | **1 week** |
-| **📊 User Progress & Quiz History** | Medium | As a user, I want to see my past quiz scores and track my improvements over time. | **1.5 weeks** |
-| **🏆 Leaderboard (Top 5 Players)** | Medium | As a user, I want to see a leaderboard that shows the top players so that I can compete with others. | **1.5 weeks** |
-| **✍️ Custom Quiz Creation Mode** | Medium | As an admin, I want to create my own quiz sets by adding custom questions and answers. | **2 weeks** |
-| **🎯 Adaptive Difficulty System** | Low (Future) | As a user, I want the quiz to adjust its difficulty based on my performance so that I am continuously challenged at my level. | **(Deprioritized for future updates)** |
-
----
-### **🚀 Adjustments Summary:**
-- **Kept Core Features:** Basic quiz functionality, user interface, score tracking, and error handling remain the top priority.
-- **Batching Features:** Related features (e.g., quiz history, leaderboard) are grouped to improve workflow efficiency.
-- **Deprioritized Non-Essential Features:** **Flashcard Mode, Sound Effects, and Adaptive Difficulty** are moved to future updates.
-- **Strict Deadline Awareness:** Each feature is scoped within the available time before **April 23**, ensuring completion.
+|-----------------|--------------|------------------|------------------------|
+| **User Registration** | High | As a new user, I want to register for an account so I can use the quiz app. | 0.5 week |
+| **Student Login** | High | As a student, I want to log in with my credentials so I can take quizzes. | 0.5 week |
+| **Teacher Login** | High | As a teacher, I want to log in with a teacher code so I can manage questions. | 0.5 week |
+| **Take a Quiz** | High | As a student, I want to take quizzes and answer multiple-choice questions. | 1 week |
+| **View Score** | High | As a student, I want to see my score immediately after submitting a quiz. | 0.5 week |
+| **Quiz Feedback Toggle** | High | As a user, I want to show/hide correct answers and explanations to customize my view. | 1 week |
+| **Leaderboard** | Medium | As a student, I want to see a leaderboard with top scores for motivation. | 1 week |
+| **Admin Panel** | High | As a teacher, I want to add, edit, and delete quiz questions. | 1.5 weeks |
+| **Filter Questions** | Medium | As a teacher, I want to filter questions by topic and difficulty for quicker editing. | 1 week |
+| **Custom Quiz Generator** | High (Client Request) | As a user, I want to generate a quiz by clicking a button and filtering by difficulty, topic, and question count. | 1.5 weeks |
+| **Preview Generated Quiz** | High | As a user, I want to preview generated quizzes before sharing or exporting. | 1 week |
+| **Export to PDF** | Medium | As a user, I want to export the quiz to PDF so I can print it or study offline. | 1 week |
+| **Email Quiz** | Medium | As a user, I want to email the quiz to myself or others for sharing. | 1 week |
+| **Session Management** | Medium | As a user, I want to stay logged in securely and be notified if my session expires. | 0.5 week |
+| **UI Responsiveness** | High | As a user, I want a clean and responsive interface for easy use on any device. | Ongoing |
+| **GitHub Structure & Docs** | Medium | As a developer, I want clear documentation so contributors can understand the app. | Ongoing |
+| **Quiz Attempt History** | Low (Future) | As a student, I want to view previous quiz attempts to track my progress. | Future |
+| **Timer-Based Quiz Mode** | Low (Future) | As a user, I want a countdown timer during quizzes to manage time. | Future |
+| **Adaptive Difficulty** | Low (Future) | As a user, I want quizzes to adjust difficulty based on my answers. | Future |
 
 ---
 
