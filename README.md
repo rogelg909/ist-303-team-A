@@ -167,7 +167,7 @@ While not part of the current course implementation, the following ideas were co
    http://localhost:5000
 
 ---
-How To Run Test & Check Coverage
+## 🧪How To Run Test & Check Coverage
 
 1. **Run all test cases using Pytest:**
 2. **Check coverage (optional)**
