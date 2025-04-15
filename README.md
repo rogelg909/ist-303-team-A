@@ -2,9 +2,9 @@
 # IST 303 SOFTWARE DEVELOPMENT TEAM A 
 # Project Title - CodeQuest: Python Mastery 🚀🐍
 
-## Overview 
-CodeQuest is a **Flask-based Python Quiz Web App** designed to help users test and improve their Python knowledge.  
-It features **multiple-choice questions, user authentication, score tracking, and interactive gameplay**.
+## 🔍 Overview  
+**CodeQuest** is a Flask-based Python quiz platform that enables learners to test and master Python programming concepts.  
+Built for both students and educators, the app supports student logins, admin question management, score tracking, leaderboard visibility, and custom quiz generation.
 
 ## Team Members
 - Paniz Herrera
@@ -12,28 +12,25 @@ It features **multiple-choice questions, user authentication, score tracking, an
 - Hla Win Tun
 - Emmanuel Nakitare
 ---
-## 📌 Project Stakeholders
-Understanding our stakeholders helps us ensure the quiz application meets their needs.
+## 📌 Stakeholders
 
-1. **🧑‍💻 Users (Learners & Developers)**  
-   - Individuals who take the quiz to test and improve their Python knowledge.  
-   - Includes students, beginner coders, and professionals refreshing their skills.  
+Understanding our stakeholders ensures that **CodeQuest** meets user needs, supports educators, and remains maintainable by developers.
 
-2. **📖 Quiz Content Managers**  
-   - Responsible for creating, updating, and managing quiz questions.  
-   - Includes instructors, tutors, and contributors adding new quiz content.  
+1. **🧑‍🎓 Students & Learners**  
+   - Primary users who take quizzes to improve Python knowledge.  
+   - Includes CS students, beginner programmers, and bootcamp participants.
 
-3. **👨‍💻 Developers (Team & Future Contributors)**  
-   - Our project team who builds and maintains the web-based quiz application.  
-   - Future contributors who may extend functionality, add questions, or improve performance.  
+2. **📖 Educators & Content Managers**  
+   - Use the **Admin Panel** to create, edit, or manage quiz content.  
+   - Includes instructors, tutors, and teaching assistants using the app in classrooms.
 
-4. **🏫 Educators & Instructors**  
-   - Teachers who may use this quiz in classrooms to engage students interactively.  
-   - Coding bootcamps integrating this quiz for training purposes.  
+3. **👨‍💻 Development Team & Future Contributors**  
+   - Developers who built and maintain the quiz platform.  
+   - Future coders may extend functionality, fix bugs, or enhance the user experience.
 
-5. **🌐 Platform Managers (Hosting & Deployment Team)**  
-   - Responsible for managing the **Flask web application**, including hosting, security, and database management.  
-   - Ensures smooth deployment, scalability, and maintenance of the online quiz platform.
+4. **🌐 Platform Managers / DevOps**  
+   - Ensure the app is deployed securely and runs smoothly.  
+   - Manage CI/CD pipelines, test automation, and database integrity.
 
 ---
 
