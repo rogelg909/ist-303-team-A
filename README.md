@@ -170,7 +170,12 @@ While not part of the current course implementation, the following ideas were co
 ## 🧪How To Run Test & Check Coverage
 
 1. **Run all test cases using Pytest:**
+   pytest -v
+   
 2. **Check coverage (optional)**
+   pip install pytest-cov
+   pytest --cov=.
+   
 3. **CI/CD via GitHub Actions:
    - actions.yml is location in .github/workflows/
    - Automatically triggers tests on every push to main
