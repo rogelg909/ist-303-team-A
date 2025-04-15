@@ -121,25 +121,59 @@ While not part of the current course implementation, the following ideas were co
 
 ---
 
-## 📅 Updated 10-12 Week Development Timeline
+## 📅 Final Development Timeline Based on Iterations
 
-| **Week**   | **Task** |
-|----------- |----------|
-| **Week 1 (Feb 26 - Mar 3)** | Define project scope, finalize user stories, set up development environment, assign team roles. |
-| **Week 2 (Mar 4 - Mar 10)** | Implement **Basic Quiz Functionality**: Question display, answer input, and flow control. |
-| **Week 3 (Mar 11 - Mar 17)** | Improve **User Interface & Formatting**, add **Multiple-Choice Support**, and refine quiz logic. |
-| **Week 4 (Mar 18 - Mar 24)** | Implement **Score Tracking & Randomized Question Selection** for dynamic quizzes. |
-| **Week 5 (Mar 25 - Mar 31)** | Develop **Error Handling & Input Validation**, ensure quiz handles incorrect inputs gracefully. |
-| **Week 6 (Apr 1 - Apr 7)** | Build **Admin Panel for Quiz Management**, allow adding/updating/deleting questions. |
-| **Week 7 (Apr 8 - Apr 14)** | Implement **Leaderboard & User Quiz History** to track progress over time. |
-| **Week 8 (Apr 15 - Apr 21)** | Final testing, **Bug Fixes, Code Optimization**, and UI refinements. |
-| **Apr 22 - Apr 23** | Final Deployment & Documentation. **Submit Project.** ✅ |
+| **Iteration**            | **Date Range**             | **Key Tasks & Deliverables**                                                                 |
+|--------------------------|----------------------------|-----------------------------------------------------------------------------------------------|
+| **Iteration 1**          | Feb 22 – Feb 26, 2025      | 🔹 Set up project repo, team roles, and dev environment. <br> 🔹 Completed **Register & Login** page. |
+| **Iteration 2**          | Mar 8 – Mar 12, 2025       | 🔹 Built **Quiz Function & Score Tracker**. <br> 🔹 Refined multiple-choice logic and UI mid-sprint. |
+| **Iteration 3**          | Mar 21 – Apr 4, 2025       | 🔹 Added **Admin Panel (CRUD)** & Teacher Login. <br> 🔹 Created **Pytest** tests and milestone validation. |
+| **Iteration 4**          | Apr 7 – Apr 14, 2025       | 🔹 Implemented **Client Request** – Custom Quiz Generator. <br> 🔹 Added PDF export, UI polish, and leaderboard. |
+| **Final Sprint**         | Apr 15 – Apr 23, 2025      | 🔹 Final Testing, Bug Fixes. <br> 🔹 GitHub Actions & Documentation. <br> ✅ Submitted final project (Part D). |
+
+---
 
 ## 🔄 Adjustments & Considerations:
-- **Prioritized Core Features** to meet deadline.
-- **Batching Tasks Efficiently** to avoid bottlenecks.
-- **Moved Less Critical Features (e.g., Adaptive Difficulty) to Future Enhancements**.
-- **Final Week Dedicated to Testing & Optimization** to ensure smooth delivery.
+
+- ✅ **Client Feedback Integrated**: Custom quiz generator was added in Iteration 4 based on new client input.
+- ⚠️ **Planned Enhancements Deferred**: Flashcards, adaptive difficulty, and sound effects moved to future pipeline.
+- 📉 **Burndown Chart Informed Adjustments**: Timeline was adjusted as actual workdays slightly extended in Iteration 3.
+- 🧪 **Testing Prioritized**: Pytest coverage and CI automation were established ahead of final submission.
+- 📦 **Modular Milestones**: Work was structured around milestone check-ins, allowing progressive delivery and review.
+
+---
+
+## 📂 How to Run the Application
+
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/rogelg909/ist-303-team-A.git
+   cd ist-303-team-A
+
+2. **Create & activate a virtual environment:**
+   python -m venv venv
+   source venv/bin/activate
+   
+3. **Install dependencies:**
+   pip install -r requirements.txt
+ 
+4. **Initialize the database**
+   python init_db.py
+   
+5. **Run the Flask app:**
+   python app.py
+   
+6. **Open in browser:**
+   http://localhost:5000
+
+---
+How To Run Test & Check Coverage
+
+1. **Run all test cases using Pytest:**
+2. **Check coverage (optional)**
+3. **CI/CD via GitHub Actions:
+   - actions.yml is location in .github/workflows/
+   - Automatically triggers tests on every push to main
 
 ---
 
