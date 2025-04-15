@@ -2,6 +2,24 @@
 # IST 303 SOFTWARE DEVELOPMENT TEAM A 
 # Project Title - CodeQuest: Python Mastery 🚀🐍
 
+---
+
+## 📚 Table of Contents
+- [Overview](#-overview)
+- [Team Members](#-team-members)
+- [Stakeholders](#-stakeholders)
+- [Key Features](#-key-features)
+- [Technical Stack](#-tech-stack)
+- [How to Run the Application](#-how-to-run-the-application)
+- [How to Run Tests & Check Coverage](#-how-to-run-tests--check-coverage)
+- [Three Most Important Things We Learned](#-three-most-important-things-we-learned)
+- [Repository Structure](#-repository-structure)
+- [GitHub Test Automation](#-github-test-automation)
+- [Additional Documentation](#-additional-documentation)
+- [Contact](#-contact)
+
+---
+
 ## 🔍 Overview  
 **CodeQuest** is a Flask-based Python quiz platform that enables learners to test and master Python programming concepts.  
 Built for both students and educators, the app supports student logins, admin question management, score tracking, leaderboard visibility, and custom quiz generation.
@@ -208,6 +226,24 @@ While not part of the current course implementation, the following ideas were co
 
 ✅ Consistent commit activity and feature delivery throughout all iterations.  
 Visit the [GitHub Insights → Code Frequency](https://github.com/rogelg909/ist-303-team-A/pulse) for detailed commit trends.
+
+---
+
+👥 **Team Contributions**
+All team members contributed code, documentation, and design:
+- Hla Win Tun – Flask backend, UI updates, test coverage, testing scripts, GitHub Actions setup.
+- Rogelio E. Garcia – Research questions, UI enhancements, and project coordination.
+- Paniz Herrera – Presentation clean up and finalizaiton, Proposed the quiz idea, and planning.
+- Emmanuel Nakitare – UI enhancements, code reviews, and documentation.
+
+📊 Verified on the [GitHub Contributors Page](https://github.com/rogelg909/ist-303-team-A/graphs/contributors)
+
+---
+
+🧭 **Organization Highlights**
+- Clear navigation using headings, emojis, and collapsible folder structure.
+- Logical file structure: `templates/`, `static/`, `test/`, `.github/workflows`.
+- README updated with complete setup, testing, and deployment instructions.
 
 ---
 
