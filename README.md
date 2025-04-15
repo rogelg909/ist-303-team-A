@@ -189,45 +189,7 @@ While not part of the current course implementation, the following ideas were co
 
 ## 📁 Repository Structure
 
-ist-303-team-A/
-├── app.py
-├── requirements.txt
-├── init_db.py
-├── schema.sql
-│
-├── templates/
-│   ├── index.html
-│   ├── register.html
-│   ├── login.html
-│   ├── quiz_start.html
-│   ├── quiz_question.html
-│   ├── quiz_results.html
-│   ├── quiz_feedback.html
-│   ├── admin_panel.html
-│   ├── add_question.html
-│   ├── edit_question.html
-│   ├── quiz_preview.html
-│   └── quiz_pdf_template.html
-│
-├── static/
-│   ├── style.css
-│   └── bootstrap.min.css
-│
-├── test/
-│   ├── test_auth.py
-│   ├── test_quiz_flow.py
-│   ├── test_access_control.py
-│   └── test_validation.py
-│
-├── .github/
-│   └── workflows/
-│       └── actions.yml
-│
-├── .gitignore
-├── README.md
-├── PART_B.md
-├── PART_C.md
-└── PART_D.md
+![Folder Strcture](https://github.com/user-attachments/assets/a07bf208-f238-43bd-aa39-42795a0709f5)
 
 ---
 
