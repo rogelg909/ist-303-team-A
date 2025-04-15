@@ -177,8 +177,65 @@ While not part of the current course implementation, the following ideas were co
 
 ---
 
+## ✨ Three Most Important Things We Learned
+
+- 🔄 **Agile development** helped us manage an evolving scope and respond effectively to late-stage client feature requests (e.g., custom quiz generation).
+  
+- 🔁 **Flask session handling and routing logic** required careful synchronization between frontend templates and backend view functions, especially during toggling answer visibility and managing quiz flows.
+
+- ✅ **GitHub Actions** ensured reliable continuous integration by automatically running test cases with Pytest before merging, helping us maintain code quality and deployment readiness.
+
+---
+
+## 📁 Repository Structure
+
+ist-303-team-A/
+├── app.py
+├── requirements.txt
+├── init_db.py
+├── schema.sql
+│
+├── templates/
+│   ├── index.html
+│   ├── register.html
+│   ├── login.html
+│   ├── quiz_start.html
+│   ├── quiz_question.html
+│   ├── quiz_results.html
+│   ├── quiz_feedback.html
+│   ├── admin_panel.html
+│   ├── add_question.html
+│   ├── edit_question.html
+│   ├── quiz_preview.html
+│   └── quiz_pdf_template.html
+│
+├── static/
+│   ├── style.css
+│   └── bootstrap.min.css
+│
+├── test/
+│   ├── test_auth.py
+│   ├── test_quiz_flow.py
+│   ├── test_access_control.py
+│   └── test_validation.py
+│
+├── .github/
+│   └── workflows/
+│       └── actions.yml
+│
+├── .gitignore
+├── README.md
+├── PART_B.md
+├── PART_C.md
+└── PART_D.md
+
+---
+
 ## 📂 Additional Documentation
-- 📜 [Part B - Project Planning & Breakdown](PART_B.md)
+
+- 📜 [PART_B.md – Planning & User Stories](PART_B.md)
+- 🧩 [PART_C.md – Wireframes & Design Decisions](PART_C.md)
+- 🚀 [PART_D.md – Final Delivery & Reflections](PART_D.md)
 
 ---
 
