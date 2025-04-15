@@ -208,7 +208,7 @@ While not part of the current course implementation, the following ideas were co
 
 ✅ Consistent commit activity and feature delivery throughout all iterations.  
 Visit the [GitHub Insights → Code Frequency](https://github.com/rogelg909/ist-303-team-A/pulse) for detailed commit trends.
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/rogelg909/ist-303-team-A)
+
 ---
 
 ## Contact 
