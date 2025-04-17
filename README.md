@@ -74,7 +74,7 @@ CodeQuest delivers an interactive, user-friendly Python quiz experience with dyn
   Displays top-performing users with highest scores to encourage friendly competition.
 
 - **Custom Quiz Generator**  
-  Users can generate quizzes by selecting specific **topics**, **difficulty levels**, and number of questions.
+  users can generate quizzes by selecting specific **topics**, **difficulty levels**, and number of questions.
 
 - **Export Options**  
   Users and admins can **export quizzes to PDF**, **send results via email**, and **toggle answer visibility**.
