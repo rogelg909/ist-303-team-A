@@ -1,10 +1,10 @@
 
 # IST 303 SOFTWARE DEVELOPMENT TEAM A 
-# Project Title - CodeQuest: Python Mastery 🚀🐍
+# Project Title - CodeQuest: Python Mastery 
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 - [Overview](#-overview)
 - [Team Members](#-team-members)
 - [Stakeholders](#-stakeholders)
@@ -20,7 +20,7 @@
 
 ---
 
-## 🔍 Overview  
+## Overview  
 **CodeQuest** is a Flask-based Python quiz platform that enables learners to test and master Python programming concepts.  
 Built for both students and educators, the app supports student logins, admin question management, score tracking, leaderboard visibility, and custom quiz generation.
 
@@ -30,77 +30,77 @@ Built for both students and educators, the app supports student logins, admin qu
 - Hla Win Tun
 - Emmanuel Nakitare
 ---
-## 📌 Stakeholders
+## Stakeholders
 
 Understanding our stakeholders ensures that **CodeQuest** meets user needs, supports educators, and remains maintainable by developers.
 
-1. **🧑‍🎓 Students & Learners**  
+1. **Students & Learners**  
    - Primary users who take quizzes to improve Python knowledge.  
    - Includes CS students, beginner programmers, and bootcamp participants.
 
-2. **📖 Educators & Content Managers**  
+2. **Educators & Content Managers**  
    - Use the **Admin Panel** to create, edit, or manage quiz content.  
    - Includes instructors, tutors, and teaching assistants using the app in classrooms.
 
-3. **👨‍💻 Development Team & Future Contributors**  
+3. **Development Team & Future Contributors**  
    - Developers who built and maintain the quiz platform.  
    - Future coders may extend functionality, fix bugs, or enhance the user experience.
 
-4. **🌐 Platform Managers / DevOps**  
+4. **Platform Managers / DevOps**  
    - Ensure the app is deployed securely and runs smoothly.  
    - Manage CI/CD pipelines, test automation, and database integrity.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 CodeQuest delivers an interactive, user-friendly Python quiz experience with dynamic admin control and performance tracking. Below are the final implemented features and planned enhancements.
 
-### ✅ Core Features (Implemented)
+### Core Features (Implemented)
 
-- **🔐 Secure User Authentication**  
+- **Secure User Authentication**  
   Supports login for both **students** and **teachers** using Flask-Login. Credentials are safely stored and managed.
 
-- **📚 Admin Panel with CRUD Functionality**  
+- **Admin Panel with CRUD Functionality**  
   Admin users can **Create**, **Read**, **Update**, and **Delete** quiz questions via a dedicated dashboard.
 
-- **🧠 Interactive Python Quiz Engine**  
+- **Interactive Python Quiz Engine**  
   Students can take randomized multiple-choice quizzes across various topics and difficulties.
 
-- **📊 Score Tracking & Quiz Feedback**  
+- **Score Tracking & Quiz Feedback**  
   Users receive immediate feedback and a total score after submitting the quiz.
 
-- **🏆 Leaderboard**  
+- **Leaderboard**  
   Displays top-performing users with highest scores to encourage friendly competition.
 
-- **🛠️ Custom Quiz Generator**  
+- **Custom Quiz Generator**  
   Users can generate quizzes by selecting specific **topics**, **difficulty levels**, and number of questions.
 
-- **📄 Export Options**  
+- **Export Options**  
   Users and admins can **export quizzes to PDF**, **send results via email**, and **toggle answer visibility**.
 
-- **⚙️ GitHub Actions Integration**  
+- **GitHub Actions Integration**  
   CI/CD workflow automatically runs **Pytest test suites** on each push using `.github/workflows/actions.yml`.
 
 ---
 
- ### 🔭 Future Enhancements (Post-IST303 Module Roadmap)
+ ### Future Enhancements (Post-IST303 Module Roadmap)
 
 While not part of the current course implementation, the following ideas were considered for future development to expand CodeQuest's learning experience:
 
-- ⏱ **Timer-Based Mode** – Introduce time-limited questions for increased challenge.  
-- 🧠 **Hints Per Question** – Offer optional hints to reinforce learning before submission.  
-- 📊 **Progress Tracking Dashboard** – Let users view their quiz history and improvement trends.  
-- 🔁 **Flashcard Review Mode** – Provide a passive review experience with question flashcards.  
-- 🔊 **Sound Effects** – Add feedback sounds for correct/incorrect responses.  
-- 🧮 **Adaptive Difficulty System** – Dynamically adjust question difficulty based on performance.  
-- 🧩 **Gamification Features** – Incorporate badges, levels, or streaks to motivate consistent usage.  
+- **Timer-Based Mode** – Introduce time-limited questions for increased challenge.  
+- **Hints Per Question** – Offer optional hints to reinforce learning before submission.  
+- **Progress Tracking Dashboard** – Let users view their quiz history and improvement trends.  
+- **Flashcard Review Mode** – Provide a passive review experience with question flashcards.  
+- **Sound Effects** – Add feedback sounds for correct/incorrect responses.  
+- **Adaptive Difficulty System** – Dynamically adjust question difficulty based on performance.  
+- **Gamification Features** – Incorporate badges, levels, or streaks to motivate consistent usage.  
 
-> 📌 These enhancements are beyond the scope of the current IST 303 course but represent valuable directions for future iterations of the app.
+> These enhancements are beyond the scope of the current IST 303 course but represent valuable directions for future iterations of the app.
 
 ---
  
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer          | Tools Used                             |
 |----------------|-----------------------------------------|
@@ -113,7 +113,7 @@ While not part of the current course implementation, the following ideas were co
 
 ---
 
-## 📜 Updated User Stories & Estimated Completion Times
+## Updated User Stories & Estimated Completion Times
 
 | **User Story**  | **Priority** | **Description** | **Updated Est. Time** |
 |-----------------|--------------|------------------|------------------------|
@@ -139,7 +139,7 @@ While not part of the current course implementation, the following ideas were co
 
 ---
 
-## 📅 Final Development Timeline Based on Iterations
+## Final Development Timeline Based on Iterations
 
 | **Iteration**            | **Date Range**             | **Key Tasks & Deliverables**                                                                 |
 |--------------------------|----------------------------|-----------------------------------------------------------------------------------------------|
@@ -151,17 +151,17 @@ While not part of the current course implementation, the following ideas were co
 
 ---
 
-## 🔄 Adjustments & Considerations:
+## Adjustments & Considerations:
 
-- ✅ **Client Feedback Integrated**: Custom quiz generator was added in Iteration 4 based on new client input.
-- ⚠️ **Planned Enhancements Deferred**: Flashcards, adaptive difficulty, and sound effects moved to future pipeline.
-- 📉 **Burndown Chart Informed Adjustments**: Timeline was adjusted as actual workdays slightly extended in Iteration 3.
-- 🧪 **Testing Prioritized**: Pytest coverage and CI automation were established ahead of final submission.
-- 📦 **Modular Milestones**: Work was structured around milestone check-ins, allowing progressive delivery and review.
+- **Client Feedback Integrated**: Custom quiz generator was added in Iteration 4 based on new client input.
+- **Planned Enhancements Deferred**: Flashcards, adaptive difficulty, and sound effects moved to future pipeline.
+- **Burndown Chart Informed Adjustments**: Timeline was adjusted as actual workdays slightly extended in Iteration 3.
+- **Testing Prioritized**: Pytest coverage and CI automation were established ahead of final submission.
+- **Modular Milestones**: Work was structured around milestone check-ins, allowing progressive delivery and review.
 
 ---
 
-## 📂 How to Run the Application
+## How to Run the Application
 
 1. **Clone the repo:**
    ```bash
@@ -185,7 +185,7 @@ While not part of the current course implementation, the following ideas were co
    http://localhost:5000
 
 ---
-## 🧪How To Run Test & Check Coverage
+## How To Run Test & Check Coverage
 
 1. **Run all test cases using Pytest:**
    pytest -v
@@ -200,47 +200,47 @@ While not part of the current course implementation, the following ideas were co
 
 ---
 
-## ✨ Three Most Important Things We Learned
+## Three Most Important Things We Learned
 
-- 🔄 **Agile development** helped us manage an evolving scope and respond effectively to late-stage client feature requests (e.g., custom quiz generation).
+- **Agile development** helped us manage an evolving scope and respond effectively to late-stage client feature requests (e.g., custom quiz generation).
   
-- 🔁 **Flask session handling and routing logic** required careful synchronization between frontend templates and backend view functions, especially during toggling answer visibility and managing quiz flows.
+- **Flask session handling and routing logic** required careful synchronization between frontend templates and backend view functions, especially during toggling answer visibility and managing quiz flows.
 
-- ✅ **GitHub Actions** ensured reliable continuous integration by automatically running test cases with Pytest before merging, helping us maintain code quality and deployment readiness.
+- **GitHub Actions** ensured reliable continuous integration by automatically running test cases with Pytest before merging, helping us maintain code quality and deployment readiness.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ![Folder Strcture](https://github.com/user-attachments/assets/a07bf208-f238-43bd-aa39-42795a0709f5)
 
 ---
 
-## 📂 Additional Documentation
+## Additional Documentation
 
-- 📜 [PART_B.md – Planning & User Stories](PART_B.md)
-- 🧩 [PART_C.md – Wireframes & Design Decisions](PART_C.md)
-- 🚀 [PART_D.md – Final Delivery & Reflections](PART_D.md)
+-  [PART_B.md – Planning & User Stories](PART_B.md)
+-  [PART_C.md – Wireframes & Design Decisions](PART_C.md)
+-  [PART_D.md – Final Delivery & Reflections](PART_D.md)
 
 ---
 
-✅ Consistent commit activity and feature delivery throughout all iterations.  
+ Consistent commit activity and feature delivery throughout all iterations.  
 Visit the [GitHub Insights → Code Frequency](https://github.com/rogelg909/ist-303-team-A/pulse) for detailed commit trends.
 
 ---
 
-👥 **Team Contributions**
+ **Team Contributions**
 All team members contributed code, documentation, and design:
 - Hla Win Tun – Flask backend, UI updates, test coverage, testing scripts, GitHub Actions setup.
 - Rogelio E. Garcia – Research questions, UI enhancements, and project coordination.
 - Paniz Herrera – Presentation clean up and finalizaiton, Proposed the quiz idea, code reviews and planning.
 - Emmanuel Nakitare – UI enhancements, code reviews, and documentation.
 
-📊 Verified on the [GitHub Contributors Page](https://github.com/rogelg909/ist-303-team-A/graphs/contributors)
+ Verified on the [GitHub Contributors Page](https://github.com/rogelg909/ist-303-team-A/graphs/contributors)
 
 ---
 
-🧭 **Organization Highlights**
+ **Organization Highlights**
 - Clear navigation using headings, emojis, and collapsible folder structure.
 - Logical file structure: `templates/`, `static/`, `test/`, `.github/workflows`.
 - README updated with complete setup, testing, and deployment instructions.
