@@ -233,7 +233,7 @@ Visit the [GitHub Insights → Code Frequency](https://github.com/rogelg909/ist-
 All team members contributed code, documentation, and design:
 - Hla Win Tun – Flask backend, UI updates, test coverage, testing scripts, GitHub Actions setup.
 - Rogelio E. Garcia – Research questions, UI enhancements, and project coordination.
-- Paniz Herrera – Presentation clean up and finalizaiton, Proposed the quiz idea, code reviews and planning.
+- Paniz Herrera – Presentation clean up and finalizaiton, proposed the quiz idea, code reviews and planning.
 - Emmanuel Nakitare – UI enhancements, code reviews, and documentation.
 
  Verified on the [GitHub Contributors Page](https://github.com/rogelg909/ist-303-team-A/graphs/contributors)
