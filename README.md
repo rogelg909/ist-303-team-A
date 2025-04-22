@@ -143,11 +143,11 @@ While not part of the current course implementation, the following ideas were co
 
 | **Iteration**            | **Date Range**             | **Key Tasks & Deliverables**                                                                 |
 |--------------------------|----------------------------|-----------------------------------------------------------------------------------------------|
-| **Iteration 1**          | Feb 22 – Feb 26, 2025      | 🔹 Set up project repo, team roles, and dev environment. <br> 🔹 Completed **Register & Login** page. |
-| **Iteration 2**          | Mar 8 – Mar 12, 2025       | 🔹 Built **Quiz Function & Score Tracker**. <br> 🔹 Refined multiple-choice logic and UI mid-sprint. |
-| **Iteration 3**          | Mar 21 – Apr 4, 2025       | 🔹 Added **Admin Panel (CRUD)** & Teacher Login. <br> 🔹 Created **Pytest** tests and milestone validation. |
-| **Iteration 4**          | Apr 7 – Apr 14, 2025       | 🔹 Implemented **Client Request** – Custom Quiz Generator. <br> 🔹 Added PDF export, UI polish, and leaderboard. |
-| **Final Sprint**         | Apr 15 – Apr 23, 2025      | 🔹 Final Testing, Bug Fixes. <br> 🔹 GitHub Actions & Documentation. <br> ✅ Submitted final project (Part D). |
+| **Iteration 1**          | Feb 22 – Feb 26, 2025      | Set up project repo, team roles, and dev environment. <br> 🔹 Completed **Register & Login** page. |
+| **Iteration 2**          | Mar 8 – Mar 12, 2025       | Built **Quiz Function & Score Tracker**. <br> 🔹 Refined multiple-choice logic and UI mid-sprint. |
+| **Iteration 3**          | Mar 21 – Apr 4, 2025       | Added **Admin Panel (CRUD)** & Teacher Login. <br> 🔹 Created **Pytest** tests and milestone validation. |
+| **Iteration 4**          | Apr 7 – Apr 14, 2025       | Implemented **Client Request** – Custom Quiz Generator. <br> 🔹 Added PDF export, UI polish, and leaderboard. |
+| **Final Sprint**         | Apr 15 – Apr 23, 2025      | Final Testing, Bug Fixes. <br> 🔹 GitHub Actions & Documentation. <br> ✅ Submitted final project (Part D). |
 
 ---
 
