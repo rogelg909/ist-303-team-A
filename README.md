@@ -216,6 +216,24 @@ While not part of the current course implementation, the following ideas were co
 
 ---
 
+## GitHub Usage & Project Management
+
+We utilized GitHub effectively throughout the project:
+
+- **Commit History**: Frequent and consistent commits reflecting real-time progress.
+- **Collaboration**: All team members contributed via feature branches and pull requests.
+- **Issue Tracking**: GitHub Issues were used to log bugs and track new feature requests.
+- **Milestones**: Key milestones like "Milestone 2.0" and final delivery were tracked.
+- **Project Boards**: Kanban-style GitHub Project Board was used for backlog and task planning.
+- **Automated Testing**: CI configured with **GitHub Actions** to run tests via **Pytest** on every push.
+- **Requirements File**: Managed dependencies via `requirements.txt` for easy setup and reproducibility.
+- **YAML Workflow**: `.github/workflows/actions.yml` handles auto-testing pipelines.
+
+➡ View our GitHub Actions: [Actions Tab](https://github.com/rogelg909/ist-303-team-A/actions)
+➡ View issues & progress: [Project Board](https://github.com/rogelg909/ist-303-team-A/projects)
+
+---
+
 ## Additional Documentation
 
 -  [PART_B.md – Planning & User Stories](PART_B.md)
