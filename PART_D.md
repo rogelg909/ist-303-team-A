@@ -43,7 +43,8 @@ We followed Agile using 2-week sprints. Daily communication and issue tracking w
 
 📉 Final Burndown Chart:  
 
-![Burndownchart 20250326](https://github.com/user-attachments/assets/671b2f2c-028f-4466-8b59-600ce285da4d)
+![Burndown Chart 04222025](https://github.com/user-attachments/assets/80d89200-d27b-4ccd-a509-002f682faccd)
+
 
 ---
 
