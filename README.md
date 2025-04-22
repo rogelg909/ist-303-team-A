@@ -224,7 +224,12 @@ While not part of the current course implementation, the following ideas were co
 
 ---
 
- Consistent commit activity and feature delivery throughout all iterations.  
+## Contributors  
+View individual commit contributions on the [GitHub Contributors Page](https://github.com/rogelg909/ist-303-team-A/graphs/contributors)
+
+---
+
+Consistent commit activity and feature delivery throughout all iterations.  
 Visit the [GitHub Insights → Code Frequency](https://github.com/rogelg909/ist-303-team-A/pulse) for detailed commit trends.
 
 ---
