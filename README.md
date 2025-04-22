@@ -132,8 +132,8 @@ While not part of the current course implementation, the following ideas were co
 | **Email Quiz** | Medium | As a user, I want to email the quiz to myself or others for sharing. | 1 week |
 | **Session Management** | Medium | As a user, I want to stay logged in securely and be notified if my session expires. | 0.5 week |
 | **UI Responsiveness** | High | As a user, I want a clean and responsive interface for easy use on any device. | Ongoing |
-| **GitHub Structure & Docs** | Medium | As a developer, I want clear documentation so contributors can understand the app. | Ongoing |
-| **Quiz Attempt History** | Low (Future) | As a student, I want to view previous quiz attempts to track my progress. | Future |
+| **GitHub Structure & Docs** | Medium | As a developer, I want clear documentation so contributors can understand the app. | 0.5 week |
+| **Quiz Attempt History** | Low (Future) | As a student, I want to view previous quiz attempts to track my progress. | 0.25 week |
 | **Timer-Based Quiz Mode** | Low (Future) | As a user, I want a countdown timer during quizzes to manage time. | Future |
 | **Adaptive Difficulty** | Low (Future) | As a user, I want quizzes to adjust difficulty based on my answers. | Future |
 
