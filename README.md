@@ -216,7 +216,7 @@ While not part of the current course implementation, the following ideas were co
 
 ---
 
-## GitHub Usage & Project Management
+## GitHub Usage 
 
 We utilized GitHub effectively throughout the project:
 
@@ -230,7 +230,15 @@ We utilized GitHub effectively throughout the project:
 - **YAML Workflow**: `.github/workflows/actions.yml` handles auto-testing pipelines.
 
 ➡ View our GitHub Actions: [Actions Tab](https://github.com/rogelg909/ist-303-team-A/actions)
-➡ View issues & progress: [Project Board](https://github.com/rogelg909/ist-303-team-A/projects)
+
+---
+
+## GitHub Project Management
+
+- Team used GitHub commits and pull requests to manage development progress.
+- All team members contributed consistently to coding, testing, and documentation.
+- CI/CD setup via GitHub Actions ensures builds and tests are verified automatically.
+- Although no public project board was used, iteration progress and burndown tracking were maintained in internal documentation and slides.
 
 ---
 
