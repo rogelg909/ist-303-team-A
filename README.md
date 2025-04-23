@@ -4,19 +4,19 @@
 
 ---
 
-## Table of Contents
-- [Overview](#-overview)
-- [Team Members](#-team-members)
-- [Stakeholders](#-stakeholders)
-- [Key Features](#-key-features)
-- [Technical Stack](#-tech-stack)
-- [How to Run the Application](#-how-to-run-the-application)
-- [How to Run Tests & Check Coverage](#-how-to-run-tests--check-coverage)
-- [Three Most Important Things We Learned](#-three-most-important-things-we-learned)
-- [Repository Structure](#-repository-structure)
-- [GitHub Test Automation](#-github-test-automation)
-- [Additional Documentation](#-additional-documentation)
-- [Contact](#-contact)
+## 📑 Table of Contents
+- [ Overview](#-overview)
+- [ Team Members](#-team-members)
+- [ Stakeholders](#-stakeholders)
+- [ Key Features](#-key-features)
+- [ Tech Stack](#-tech-stack)
+- [ How to Run the Application](#-how-to-run-the-application)
+- [ How to Run Tests & Check Coverage](#-how-to-run-tests--check-coverage)
+- [ Three Most Important Things We Learned](#-three-most-important-things-we-learned)
+- [ Repository Structure](#-repository-structure)
+- [⚙ GitHub Test Automation](#️-github-test-automation)
+- [ Additional Documentation](#-additional-documentation)
+- [ Contact](#-contact)
 
 ---
 
