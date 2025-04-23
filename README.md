@@ -275,10 +275,21 @@ All team members contributed code, documentation, and design:
 
 ---
 
- **Organization Highlights**
-- Clear navigation using headings, emojis, and collapsible folder structure.
-- Logical file structure: `templates/`, `static/`, `test/`, `.github/workflows`.
-- README updated with complete setup, testing, and deployment instructions.
+## Organization Highlights
+
+- The repository is clearly structured with separate folders for templates, static assets, test scripts, and GitHub workflows:
+- ist-303-team-A/ ├── templates/ ├── static/ ├── test/ ├── .github/workflows/
+- The `README.md` provides:
+- Setup instructions for cloning, installing, and running the app.
+- Guidance on running tests and checking coverage.
+- Documentation links (Part B, C, D) for planning and reflection deliverables.
+
+- Information is easy to locate through:
+- A clean Table of Contents.
+- Descriptive headings for each section.
+- Markdown formatting with bullet points and code blocks for clarity.
+
+- Each feature and user story is clearly documented, helping new developers understand and contribute efficiently.
 
 ---
 
