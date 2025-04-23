@@ -4,19 +4,25 @@
 
 ---
 
-## 📑 Table of Contents
-- [ Overview](#-overview)
-- [ Team Members](#-team-members)
-- [ Stakeholders](#-stakeholders)
-- [ Key Features](#-key-features)
-- [ Tech Stack](#-tech-stack)
-- [ How to Run the Application](#-how-to-run-the-application)
-- [ How to Run Tests & Check Coverage](#-how-to-run-tests--check-coverage)
-- [ Three Most Important Things We Learned](#-three-most-important-things-we-learned)
-- [ Repository Structure](#-repository-structure)
-- [⚙ GitHub Test Automation](#️-github-test-automation)
-- [ Additional Documentation](#-additional-documentation)
-- [ Contact](#-contact)
+## Table of Contents
+- [Overview](#overview)
+- [Team Members](#team-members)
+- [Stakeholders](#stakeholders)
+- [Key Features](#key-features)
+- [Tech Stack](#tech-stack)
+- [Updated User Stories & Estimated Completion Times](#updated-user-stories--estimated-completion-times)
+- [Final Development Timeline Based on Iterations](#final-development-timeline-based-on-iterations)
+- [Adjustments & Considerations](#adjustments--considerations)
+- [How to Run the Application](#how-to-run-the-application)
+- [How To Run Test & Check Coverage](#how-to-run-test--check-coverage)
+- [Three Most Important Things We Learned](#three-most-important-things-we-learned)
+- [Repository Structure](#repository-structure)
+- [GitHub Usage](#github-usage)
+- [GitHub Project Management](#github-project-management)
+- [Additional Documentation](#additional-documentation)
+- [Team Contributions](#team-contributions)
+- [Organization Highlights](#organization-highlights)
+- [Contact](#contact)
 
 ---
 
