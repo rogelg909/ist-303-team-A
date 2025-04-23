@@ -279,17 +279,18 @@ All team members contributed code, documentation, and design:
 
 - The repository is clearly structured with separate folders for templates, static assets, test scripts, and GitHub workflows:
 - ist-303-team-A/ ├── templates/ ├── static/ ├── test/ ├── .github/workflows/
-- The `README.md` provides:
+  
+### README Highlights:
 - Setup instructions for cloning, installing, and running the app.
-- Guidance on running tests and checking coverage.
-- Documentation links (Part B, C, D) for planning and reflection deliverables.
+- Guidance on how to run tests and check code coverage.
+- Links to all milestone documentation (Part B, C, D) for planning, design, and final reflections.
 
-- Information is easy to locate through:
-- A clean Table of Contents.
-- Descriptive headings for each section.
-- Markdown formatting with bullet points and code blocks for clarity.
+### Ease of Navigation:
+- Clean Table of Contents at the top of the README.
+- Descriptive section headings and consistent formatting.
+- Code blocks and bullet points used for clarity and readability.
 
-- Each feature and user story is clearly documented, helping new developers understand and contribute efficiently.
+- Each implemented feature and user story is clearly described, enabling new contributors to understand project scope and code responsibilities quickly.
 
 ---
 
