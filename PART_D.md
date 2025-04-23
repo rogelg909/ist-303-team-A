@@ -56,9 +56,8 @@ We followed Agile using 2-week sprints. Iteration progress was tracked internall
   - Pytest used for testing login, role-based access, quiz logic, and validation.
   - ~80% coverage via CLI output and terminal logs.
 
-```bash
-pytest
-pytest --cov=. --cov-report=term-missing
+- pytest
+- pytest --cov=. --cov-report=term-missing
 
 CI/CD Integration: GitHub Actions automatically runs tests on every push to main.
 ---
