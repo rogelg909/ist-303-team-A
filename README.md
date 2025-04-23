@@ -21,6 +21,7 @@
 - [GitHub Project Management](#github-project-management)
 - [Additional Documentation](#additional-documentation)
 - [Team Contributions](#team-contributions)
+- [Commit Activity](#commit-activity)
 - [Organization Highlights](#organization-highlights)
 - [Contact](#contact)
 
@@ -256,12 +257,14 @@ We utilized GitHub effectively throughout the project:
 
 ---
 
+## Commit Activity
+
 Consistent commit activity and feature delivery throughout all iterations.  
 Visit the [GitHub Insights → Code Frequency](https://github.com/rogelg909/ist-303-team-A/pulse) for detailed commit trends.
 
 ---
 
- **Team Contributions**
+ ## Team Contributions
 All team members contributed code, documentation, and design:
 - Hla Win Tun – Flask backend, UI updates, test coverage, testing scripts, GitHub Actions setup.
 - Rogelio E. Garcia – Research questions, UI enhancements, and project coordination.
