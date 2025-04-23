@@ -219,10 +219,6 @@ While not part of the current course implementation, the following ideas were co
 
 ## Repository Structure
 
-![Folder Strcture](https://github.com/user-attachments/assets/a07bf208-f238-43bd-aa39-42795a0709f5)
-
-![Repo Structure ](https://github.com/user-attachments/assets/393c5747-4c0b-47f6-bd1e-e479252158e8)
-
 ```
 ist-303-team-A/
 ├── app.py
