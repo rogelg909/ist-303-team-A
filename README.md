@@ -221,8 +221,9 @@ While not part of the current course implementation, the following ideas were co
 
 ![Folder Strcture](https://github.com/user-attachments/assets/a07bf208-f238-43bd-aa39-42795a0709f5)
 
-<pre> ``` ist-303-team-A/ ├── app.py ├── requirements.txt ├── init_db.py ├── schema.sql │ ├── templates/ │ ├── index.html │ ├── register.html │ ├── login.html │ ├── quiz_start.html │ ├── quiz_question.html │ ├── quiz_results.html │ ├── quiz_feedback.html │ ├── admin_panel.html │ ├── add_question.html │ ├── edit_question.html │ ├── quiz_preview.html │ └── quiz_pdf_template.html │ ├── static/ │ ├── style.css │ └── bootstrap.min.css │ ├── test/ │ ├── test_auth.py │ ├── test_quiz_flow.py │ ├── test_access_control.py │ └── test_validation.py │ ├── .github/ │ └── workflows/ │ └── actions.yml │ ├── .gitignore ├── README.md ├── PART_B.md ├── PART_C.md └── PART_D.md ``` </pre>
+![Folder Strcture](https://github.com/user-attachments/assets/e12aff8f-16f3-4564-a161-3ef450482280)
 
+``` ist-303-team-A/ ├── app.py ├── requirements.txt ├── init_db.py ├── schema.sql │ ├── src/ │ └── ist303_flask_project/ │ ├── app.py │ ├── requirements.txt │ ├── insert_questions.py │ ├── init_db.py │ ├── schema.sql │ ├── templates/ │ │ ├── index.html │ │ ├── register.html │ │ ├── login.html │ │ ├── quiz_start.html │ │ ├── quiz_question.html │ │ ├── quiz_results.html │ │ ├── quiz_feedback.html │ │ ├── admin_panel.html │ │ ├── add_question.html │ │ ├── edit_question.html │ │ ├── quiz_preview.html │ │ └── quiz_pdf_template.html │ ├── static/ │ │ ├── style.css │ │ └── bootstrap.min.css │ └── venv/ │ ├── Include/ │ ├── Lib/ │ ├── Scripts/ │ └── pyvenv.cfg │ ├── test/ │ ├── test_auth.py │ ├── test_quiz_flow.py │ ├── test_access_control.py │ └── test_validation.py │ ├── .github/ │ └── workflows/ │ └── actions.yml │ ├── .gitignore ├── README.md ├── PART_B.md ├── PART_C.md └── PART_D.md ```
 ---
 
 ## GitHub Usage 
